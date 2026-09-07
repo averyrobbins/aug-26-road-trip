@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A receipt-backed look at an August road trip: recorded spending, fuel purchases, and approximate purchase locations.">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; frame-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>August ’26 / Road trip</title>
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/trip-data.js" defer></script>
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#overview">Skip to the overview</a>
+  <header class="site-header">
+    <a class="wordmark" href="#overview" aria-label="Road trip overview"><span id="edition">August ’26</span><span class="wordmark-divider">/</span>Road trip</a>
+    <nav aria-label="Main navigation"><a href="#overview">Overview</a><a href="#visual-report">Full report</a><a href="#trip-map">Trip map</a></nav>
+  </header>
+  <main>
+    <p id="data-error" class="error-message" role="alert" hidden>The trip data could not be loaded. Keep the assets folder beside this page and reload.</p>
+    <noscript><p class="error-message">Enable JavaScript to explore the overview and map. The <a href="report.html">full report</a> also includes a readable, no-script version.</p></noscript>
+    <section id="overview" class="section overview" aria-labelledby="overview-heading">
+      <div class="section-heading introduction"><div><p class="eyebrow" id="trip-period">Trip spending journal</p><h1 id="overview-heading">The trip, in receipts.</h1></div><p class="intro-note">What was spent, where it went, and the purchases that tell the story. A record of available evidence—not a complete trip budget.</p></div>
+      <div id="headline-metrics" class="metric-grid" aria-label="Recorded spending summary"></div>
+      <p id="coverage-note" class="coverage-note"></p>
+      <div class="overview-grid">
+        <section class="summary-panel" aria-labelledby="category-heading"><div class="panel-heading"><h2 id="category-heading">Where the money went</h2><span class="small-label">USD · included payments</span></div><div id="category-table"></div><p class="table-note">Category totals include allocated tax. Food and merchandise bought at a gas station are not automatically classified as fuel.</p></section>
+        <section class="summary-panel food-panel" aria-labelledby="food-heading"><div class="panel-heading"><h2 id="food-heading">Food on the road</h2><span id="food-share" class="small-label"></span></div><div id="food-table"></div><p class="table-note">Groceries include food and drinks from grocery retailers and Walmart. Convenience snacks are kept separate from restaurants and groceries.</p><div id="peak-day" class="editorial-callout"></div></section>
+      </div>
+    </section>
+    <section id="visual-report" class="section report-section" aria-labelledby="report-heading"><div class="section-heading"><div><p class="eyebrow">A closer look</p><h2 id="report-heading">The full visual report</h2></div><div class="heading-links"><a class="text-link" href="report.html">Open report on its own <span aria-hidden="true">↗</span></a><a class="text-link" href="#trip-map">Go to the trip map ↓</a></div></div><p class="section-description">Charts, comparisons, and the definitions behind the recorded spending.</p><iframe class="report-frame" src="report.html" title="Road trip spending visual report" loading="lazy"></iframe></section>
+    <section id="trip-map" class="section map-section" aria-labelledby="map-heading">
+      <div class="section-heading"><div><p class="eyebrow">Purchase geography</p><h2 id="map-heading">Stops along the way.</h2></div><p class="intro-note">Explore approximate purchase locations. Select a state, a point, or a purchase below.</p></div>
+      <form id="map-filters" class="map-filters" aria-label="Filter purchases"><label>State<select id="filter-state"><option value="">All states</option></select></label><label>Purchase type<select id="filter-category"><option value="">All types</option></select></label><label>Date<select id="filter-date"><option value="">All dates</option></select></label><label>Location<select id="filter-location"><option value="">All purchases</option><option value="mapped">On the map</option><option value="unmapped">No map location</option></select></label><button id="clear-filters" class="quiet-button" type="button">Clear filters</button></form>
+      <div class="map-workspace">
+        <div class="map-canvas-panel"><div class="map-tools" role="group" aria-label="Map view controls"><button type="button" id="zoom-in" aria-label="Zoom in">+</button><button type="button" id="zoom-out" aria-label="Zoom out">−</button><button type="button" id="pan-left" aria-label="Pan left">←</button><button type="button" id="pan-up" aria-label="Pan up">↑</button><button type="button" id="pan-down" aria-label="Pan down">↓</button><button type="button" id="pan-right" aria-label="Pan right">→</button><button type="button" id="reset-map">Reset view</button></div><svg id="purchase-map" viewBox="0 0 1000 520" role="group" tabindex="0" aria-label="Interactive approximate purchase map" aria-describedby="map-help"><title>Approximate purchase locations</title><g id="map-states"></g><g id="map-state-labels" aria-hidden="true"></g><g id="map-points"></g></svg><p id="map-help" class="map-help">Drag to pan. Use + / − to zoom, arrow keys to pan, and Home to reset when the map is focused. Each purchase is also available in the list below.</p></div>
+        <aside class="purchase-detail" aria-labelledby="purchase-detail-heading" aria-live="polite" aria-atomic="true"><p class="eyebrow">Selected purchase</p><h3 id="purchase-detail-heading">Choose a stop</h3><div id="purchase-detail-content"><p>Select a map point or a purchase in the list to see its details.</p></div></aside>
+      </div>
+      <div class="map-results-heading"><p id="map-results-status" role="status" aria-live="polite"></p><label>List order<select id="list-order"><option value="date">Date · earliest first</option><option value="amount-desc">Amount · highest first</option><option value="amount-asc">Amount · lowest first</option></select></label></div>
+      <p class="table-note map-caveat">Coordinates are rounded and approximate, not exact storefront positions. Points show the whole payment; a mixed basket’s primary type is not an item-by-item breakdown. No connecting lines or actual driven route are inferred.</p>
+      <div id="purchase-list" class="purchase-list" aria-label="Filtered purchases"></div>
+    </section>
+    <section class="section methodology" aria-labelledby="method-heading"><h2 id="method-heading">Read the numbers with their limits.</h2><div class="method-grid"><p id="method-coverage"></p><p id="method-evidence">Receipt totals are counted once. Category tax splits are approximations, not separately printed category-level taxes. Unknown dates and prices stay unknown. Available expenses are not proof that every trip cost is captured.</p></div></section>
+  </main>
+  <footer class="site-footer"><p class="footer-title">A public spending journal, not an anonymous dataset.</p><p>This page retains travel dates, merchants, cities and states, purchase amounts, fuel details, and approximate locations. Receipt images, item descriptions, exact addresses, purchase times, and payment identifiers are not included. The site is self-contained and has no analytics, tracking scripts, or external map requests. The hosting provider may still keep access logs.</p><a href="#overview">Back to the top ↑</a></footer>
+</body>
+</html>
