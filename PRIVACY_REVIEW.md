@@ -12,7 +12,7 @@ downloadable. JavaScript data is visible to anyone who can open the site.
 - Cities, states, business names, approximate purchase locations, and spending.
 - Category, food, merchant, daily, and fuel summaries; fuel grades and prices.
 - Uncertainty and coverage amounts, including undated and manually added spending.
-- The reviewed v2 user-confirmed total correction, its original amount, and the unallocated difference.
+- The reviewed v2 user-confirmed total correction, its original amount, and its fuel allocation; missing fuel quantity and price remain unknown.
 
 This can reveal travel patterns and purchasing habits. It is **not anonymous**.
 Locations are rounded to two decimal places (roughly one kilometer), but a

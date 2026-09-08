@@ -37,7 +37,7 @@
     document.title = `${$("edition").textContent} / Road trip`;
     $("trip-period").textContent = `${day(D.start_date)} — ${day(D.end_date, true)}`;
     metric("headline-metrics", "Recorded trip spending", money(S.total), `${S.transactions} included payments · not a complete trip budget`, true);
-    metric("headline-metrics", "Fuel", money(F.total), `${F.purchases} purchases · ${fixed(F.gallons)} gallons`);
+    metric("headline-metrics", "Fuel", money(F.total), F.unquantified_purchases ? `${F.purchases} fuel payments · ${F.quantified_purchases} with gallon/price details; ${money(F.unquantified_total)} without` : `${F.purchases} purchases · ${fixed(F.gallons)} gallons`);
     metric("headline-metrics", "Food", money(R.food_summary[0]?.total), "Restaurants, groceries & convenience snacks");
     metric("headline-metrics", "Dated receipt spending", money(S.dated_receipt_total), `${S.dated_transactions} payments with complete trip dates`);
     const provisional = R.scope.find(row => row.scope === "undated_provisional"), manual = R.scope.find(row => row.scope === "manual_addition"), excluded = R.scope.find(row => row.scope === "outside_trip_dates");
@@ -47,9 +47,10 @@
     const lodgingPresent = R.categories.some(row => ["lodging", "accommodation", "accommodations", "hotel", "hotels"].includes(String(row.category).toLowerCase()));
     const overrides = purchases.filter(row => row.amount_is_user_override);
     if (overrides.length) {
-      const delta = overrides.reduce((sum, row) => sum + n(row.unallocated_correction_amount), 0);
+      const delta = overrides.reduce((sum, row) => sum + n(row.correction_amount), 0);
+      const fuelDelta = overrides.filter(row => row.correction_category === "fuel").reduce((sum, row) => sum + n(row.correction_amount), 0);
       $("correction-note").hidden = false;
-      $("correction-note").textContent = `V2 includes ${money(delta)} in user-confirmed corrections. The Green River, Wyoming Maverik payment is recorded at $53.37 instead of the original $3.37. The extra $50.00 is unallocated; known food, tax, and fuel amounts are unchanged.`;
+      $("correction-note").textContent = `V2 includes ${money(delta)} in user-confirmed corrections. The Green River, Wyoming Maverik payment is recorded at $53.37 instead of the original $3.37. ` + (fuelDelta ? `The additional ${money(fuelDelta)} is allocated to Fuel. Its gallons and unit price are unknown, so price averages use only the ${F.quantified_purchases} fully quantified purchases (${money(F.quantified_total)} and ${fixed(F.gallons)} gallons). Original itemization and printed tax are preserved; checkout-bag charges are grouped into Groceries.` : `The correction remains unallocated; known food, tax, and fuel amounts are unchanged.`);
     }
     $("method-evidence").textContent = "Receipt totals are counted once. Category tax splits are approximations, not separately printed category-level taxes. Unknown dates and prices stay unknown. " + (lodgingPresent ? "Available expenses are not proof that every trip cost is captured." : "The current categories contain no lodging evidence, so this should not be read as the entire cost of the trip.");
     table("category-table", sortedTotal(R.categories), [{key: "category", label: "Category", format: pretty}, amountColumn, {label: "Share", numeric: true, format: (_, row) => `${(n(row.total) / n(S.total) * 100).toFixed(1)}%`}]);
@@ -127,7 +128,8 @@
       if (selected && !ids.has(selected)) select(null);
       renderList();
       const onMap = visible.filter(mapped).length;
-      $("map-results-status").textContent = `${visible.length} ${visible.length === 1 ? "payment" : "payments"} · ${money(total(visible))} · ${onMap} mapped, ${visible.length - onMap} without a map location`;
+      const fuelPortion = visible.reduce((sum, row) => sum + (row.fuel_amount ?? 0), 0);
+      $("map-results-status").textContent = `${visible.length} ${visible.length === 1 ? "payment" : "payments"} · ${money(total(visible))} in whole payments${fuelPortion ? ` · ${money(fuelPortion)} fuel portion` : ""} · ${onMap} mapped, ${visible.length - onMap} without a map location`;
     }
     function renderList() {
       const list = $("purchase-list"); list.replaceChildren();
@@ -151,7 +153,7 @@
         content.append(facts);
         if (row.is_manual) content.append(element("p", "User-reported payment. No receipt image or itemization was supplied.", "detail-warning"));
         if (row.amount_is_estimated) content.append(element("p", "This payment amount is an estimate.", "detail-warning"));
-        if (row.amount_is_user_override) content.append(element("p", `User-confirmed total override: ${money(row.original_extracted_total)} → ${money(row.total)}. The ${money(row.unallocated_correction_amount)} increase is unallocated, not a newly identified item or fuel purchase. Original itemization and tax still add to ${money(row.original_extracted_total)}.`, "detail-warning"));
+        if (row.amount_is_user_override) content.append(element("p", `User-confirmed total override: ${money(row.original_extracted_total)} → ${money(row.total)}. The ${money(row.correction_amount)} increase is ` + (row.correction_category === "fuel" ? "allocated to Fuel by the owner. Gallons, unit price, and grade are unknown; this amount is excluded from fuel-price averages." : "unallocated, with no supplied purchase category.") + ` Original itemization and tax still add to ${money(row.original_extracted_total)}.`, "detail-warning"));
         if (!row.purchase_date) content.append(element("p", "Complete purchase date unknown. It has not been assigned to a trip day.", "detail-warning"));
         const point = pointNodes.get(id); if (point) pointsGroup.append(point);
       }

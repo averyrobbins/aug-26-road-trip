@@ -15,7 +15,7 @@
       {
         "id": "executive_summary",
         "type": "markdown",
-        "body": "## Executive Summary\n\n- **The supplied trip spending totals $1,501.89.** This includes $1,351.66 on fully dated trip receipts, $75.23 on provisionally included undated receipts, and $75.00 you reported separately. The miscellaneous $25.00 is estimated. Two July receipts totaling $134.42 are excluded.\n- **Fuel is the largest expense: $840.23, or 55.9% of the included total.** The 16 fill-ups purchased 179.718 gallons at a gallon-weighted effective price of $4.675 per gallon. Food and drinks account for another $537.76.\n- **Utah has the most recorded spending, at $506.03.** Among fully dated receipts, Aug 17, 2026 is the highest-spending day: $296.14 across 7 purchases. The undated and manual payments cannot be assigned to a day.\n\nThis total includes the user-confirmed v2 override alongside supplied receipts and additions; it is not a verified complete cost of the family trip. No lodging payments or mileage records were provided.",
+        "body": "## Executive Summary\n\n- **The supplied trip spending totals $1,501.89.** This includes $1,351.66 on fully dated trip receipts, $75.23 on provisionally included undated receipts, and $75.00 you reported separately. The miscellaneous $25.00 is estimated. Two July receipts totaling $134.42 are excluded.\n- **Fuel is the largest expense: $890.23, or 59.3% of the included total.** The 16 fully quantified fuel purchases account for 179.718 gallons at a gallon-weighted effective price of $4.675 per gallon; the additional $50.00 fuel allocation has no supplied volume or unit price and is excluded from that average. Food and drinks account for another $537.86.\n- **Utah has the most recorded spending, at $506.03.** Among fully dated receipts, Aug 17, 2026 is the highest-spending day: $296.14 across 7 purchases. The undated and manual payments cannot be assigned to a day.\n\nThis total includes the user-confirmed v2 override alongside supplied receipts and additions; it is not a verified complete cost of the family trip. No lodging payments or mileage records were provided.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -24,7 +24,7 @@
         "type": "markdown",
         "layout": "full",
         "sourceId": "public_report_data",
-        "body": "## V2 correction adds $50.00 to recorded spending\n\nThe August 17 Maverik purchase in Green River, Wyoming is recorded as **$53.37**, replacing $3.37, following your explicit confirmation. The original printed itemization still reconciles to $3.37 ($3.18 plus $0.19 tax); $53.37 is a **user-confirmed override**, not a newly verified printed amount.\n\nThe additional **$50.00 remains unallocated** because its purchase category is unknown. The known $3.37 convenience-drink allocation, printed tax, and all fuel data are unchanged. This replaces one receipt total and does not add another payment."
+        "body": "## V2 correction adds $50.00 to recorded spending\n\nThe August 17 Maverik purchase in Green River, Wyoming is recorded as **$53.37**, replacing $3.37, following your explicit confirmation. The original printed itemization still reconciles to $3.37 ($3.18 plus $0.19 tax); $53.37 is a **user-confirmed override**, not a newly verified printed amount.\n\nYou subsequently confirmed that the additional **$50.00 is fuel**. It is now included in fuel spending, with no unallocated balance. Its gallons, grade, and unit price remain unknown, so it is excluded from fuel-price averages. The known $3.37 convenience-drink allocation and printed tax are unchanged. This replaces one receipt total and does not add another payment."
       },
       {
         "id": "headline_metrics",
@@ -51,7 +51,7 @@
       {
         "id": "category_findings",
         "type": "markdown",
-        "body": "## Fuel accounts for 55.9% of supplied spending\n\n**Fuel leads at $840.23; restaurants and prepared meals follow at $308.56.** Read the bars as all-in spending by what was purchased, rather than by the kind of store. Prepared Maverik meals count as restaurants; gas remains fuel; nonfood Walmart items keep their own categories.\n\nDiscounts reduce the related category. Receipt taxes are allocated across item categories where necessary, so mixed-receipt category totals are estimates at the category level even though they reconcile exactly to the charged receipt. Fuel tax is generally embedded in the pump price, not an additional amount. The small $0.10 household-supplies amount is a separately preserved bag fee.\n\nThe $50.00 unallocated correction has no inferred item or category. The previously captured $0.19 tax remains with its known convenience-drink item; it is not redistributed over the override.",
+        "body": "## Fuel accounts for 59.3% of supplied spending\n\n**Fuel leads at $890.23; restaurants and prepared meals follow at $308.56.** Read the bars as all-in spending by what was purchased, rather than by the kind of store. Prepared Maverik meals count as restaurants; gas remains fuel; nonfood Walmart items keep their own categories.\n\nDiscounts reduce the related category. Receipt taxes are allocated across item categories where necessary, so mixed-receipt category totals are estimates at the category level even though they reconcile exactly to the charged receipt. Fuel tax is generally embedded in the pump price, not an additional amount. The checkout-bag fee is grouped with groceries, not shown as a separate spending category.\n\nFuel includes the $50.00 user-confirmed allocation. The previously captured $0.19 tax remains with its known convenience-drink item; no extra tax or tip is inferred for the fuel correction.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -76,7 +76,7 @@
       {
         "id": "food_findings",
         "type": "markdown",
-        "body": "## Restaurants cost about 1.9 times the grocery spending\n\n**Food and drinks total $537.76, or 35.8% of included spending.** Restaurant and prepared-meal purchases total $308.56, including the $50 Utah steakhouse payment. Groceries total $163.62; convenience snacks and drinks add $65.58.\n\nThe grocery category includes food and drinks bought at grocery stores and Walmart; convenience snacks/drinks describes those purchases at travel stops and similar outlets. This distinction is useful for planning the next trip, but it does not establish when the food was eaten. No separate steakhouse tax, tip, menu items or purchase date were supplied, so the reported $50 is counted as one all-in payment.",
+        "body": "## Restaurants cost about 1.9 times the grocery spending\n\n**Food and drinks total $537.86, or 35.8% of included spending.** Restaurant and prepared-meal purchases total $308.56, including the $50 Utah steakhouse payment. Groceries total $163.72; convenience snacks and drinks add $65.58.\n\nThe grocery category includes food and drinks bought at grocery stores and Walmart; convenience snacks/drinks describes those purchases at travel stops and similar outlets. This distinction is useful for planning the next trip, but it does not establish when the food was eaten. No separate steakhouse tax, tip, menu items or purchase date were supplied, so the reported $50 is counted as one all-in payment. Grocery spending includes associated checkout-bag charges, grouped there at your request.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -127,7 +127,7 @@
       {
         "id": "fuel_findings",
         "type": "markdown",
-        "body": "## Fuel averaged $4.675 per gallon, weighted by gallons purchased\n\n**The 16 fuel purchases total $840.23 for 179.718 gallons.** Dividing the charged fuel total by total gallons gives **$4.675/gal**. The simple average of printed pump prices is **$4.692/gal**, giving a small fill-up the same weight as a large one. The gallon-weighted average of the printed prices is $4.675/gal; tiny differences from the charged-price calculation reflect receipt rounding.\n\n**The lowest printed price is $4.099/gal at Tumbleweed Express in Laramie, WY, on Aug 17, 2026.** The highest is $5.199/gal at Seibert Travel Stop in Seibert, CO, on Aug 29, 2026. The spread is $1.100/gal; it is an observed trip range, not proof of a persistent state or station price advantage.\n\nThe receipts identify **15 premium purchases and one BP Ultimate purchase**; the BP receipt does not print an octane number. These prices should not be compared to regular-grade averages. The table preserves each printed grade, including E10 and 93E10 descriptions, with three-decimal posted prices and volumes. July purchases are excluded. Without distance or odometer readings, the receipts do not support MPG, fuel cost per mile, or total miles driven.",
+        "body": "## Fully quantified fuel averaged $4.675 per gallon, weighted by gallons purchased\n\n**Fuel spending totals $890.23 across 17 payments with a fuel component.** Of this, $840.23 across 16 fully quantified purchases bought 179.718 gallons. The other $50.00 is your confirmed fuel allocation with unknown gallons, grade, and unit price. Dividing only the quantified fuel charges by their gallons gives **$4.675/gal**. The simple average of printed pump prices is **$4.692/gal**, giving a small fill-up the same weight as a large one. The gallon-weighted average of the printed prices is $4.675/gal; tiny differences from the charged-price calculation reflect receipt rounding.\n\n**The lowest printed price is $4.099/gal at Tumbleweed Express in Laramie, WY, on Aug 17, 2026.** The highest is $5.199/gal at Seibert Travel Stop in Seibert, CO, on Aug 29, 2026. The spread is $1.100/gal; it is an observed trip range, not proof of a persistent state or station price advantage.\n\nThe receipts identify **15 premium purchases and one BP Ultimate purchase**; the BP receipt does not print an octane number. These prices should not be compared to regular-grade averages. The table includes the confirmed $50.00 fuel allocation with unknown details clearly labeled and preserves each printed grade, including E10 and 93E10 descriptions, with three-decimal posted prices and volumes. July purchases are excluded. Without distance or odometer readings, the receipts do not support MPG, fuel cost per mile, or total miles driven.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -153,7 +153,7 @@
       {
         "id": "coverage_findings",
         "type": "markdown",
-        "body": "## Dates and missing expenses are the next useful checks\n\n**The most useful follow-up is to date the $150.23 currently outside the daily chart and confirm whether either July purchase was trip preparation.** The six undated payments remain in aggregate spending but are not individually listed in this public report. Missing dates are left unknown rather than guessed.\n\nRestaurant tips, lodging, online bookings, mileage and any other purchases absent from the supplied material are not recoverable from these receipts. No separately printed tip has been added, and missing tip/tax fields do not prove that a charge was absent. Mixed-category tax splits are approximate. Where an item amount is unreadable, a readable receipt subtotal can support category allocation without inventing a per-item price.\n\nTo refine the analysis, add any missing lodging or other payments, give dates for the manual additions if known, and confirm the undated receipts. The frozen v1 totals remain intact; this v2 report separately applies the documented user-confirmed override, with its $50.00 category gap left visible.",
+        "body": "## Dates and missing expenses are the next useful checks\n\n**The most useful follow-up is to date the $150.23 currently outside the daily chart and confirm whether either July purchase was trip preparation.** The six undated payments remain in aggregate spending but are not individually listed in this public report. Missing dates are left unknown rather than guessed.\n\nRestaurant tips, lodging, online bookings, mileage and any other purchases absent from the supplied material are not recoverable from these receipts. No separately printed tip has been added, and missing tip/tax fields do not prove that a charge was absent. Mixed-category tax splits are approximate. Where an item amount is unreadable, a readable receipt subtotal can support category allocation without inventing a per-item price.\n\nTo refine the analysis, add any missing lodging or other payments, give dates for the manual additions if known, and confirm the undated receipts. The frozen v1 totals remain intact; this v2 report applies the documented user-confirmed override and fuel allocation, with its missing fuel quantity and price left visible.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -580,7 +580,7 @@
       {
         "id": "fuel_table",
         "title": "Every included fuel purchase",
-        "subtitle": "One row per fill-up · printed prices are USD/gallon · exact quantities and paid charges.",
+        "subtitle": "One row per fuel expense · prices are USD/gallon · the user-confirmed $50 allocation has no supplied quantity or unit price.",
         "showDescription": true,
         "dataset": "fuel",
         "sourceId": "public_fuel",
@@ -656,7 +656,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -678,7 +678,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -700,7 +700,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -722,7 +722,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -744,7 +744,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -766,7 +766,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -788,7 +788,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -810,7 +810,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -832,7 +832,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -854,7 +854,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -876,7 +876,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -898,7 +898,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -920,7 +920,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -952,14 +952,18 @@
       ],
       "fuel_summary": [
         {
-          "purchases": 16,
-          "total": 840.23,
+          "purchases": 17,
+          "total": 890.23,
           "gallons": 179.718,
           "weighted_effective_price": 4.675269032595511,
           "weighted_posted_price": 4.675261420670161,
           "simple_average_posted_price": 4.6915,
           "cheapest_posted_price": 4.099,
-          "highest_posted_price": 5.199
+          "highest_posted_price": 5.199,
+          "quantified_purchases": 16,
+          "quantified_total": 840.23,
+          "unquantified_purchases": 1,
+          "unquantified_total": 50
         }
       ],
       "scope": [
@@ -999,13 +1003,13 @@
       "categories": [
         {
           "category": "fuel",
-          "base_amount": 840.23,
+          "base_amount": 890.23,
           "allocated_tax": 0,
           "allocated_tip": 0,
-          "total": 840.23,
-          "transactions": 16,
+          "total": 890.23,
+          "transactions": 17,
           "rank": 1,
-          "share": 0.5594484283136582,
+          "share": 0.5927398145003961,
           "included_total": 1501.89,
           "label": "Fuel"
         },
@@ -1023,13 +1027,13 @@
         },
         {
           "category": "groceries",
-          "base_amount": 158.54,
+          "base_amount": 158.64,
           "allocated_tax": 5.08,
           "allocated_tip": 0,
-          "total": 163.62,
+          "total": 163.72,
           "transactions": 5,
           "rank": 3,
-          "share": 0.10894273215748157,
+          "share": 0.10900931492985504,
           "included_total": 1501.89,
           "label": "Groceries"
         },
@@ -1046,25 +1050,13 @@
           "label": "Convenience snacks & drinks"
         },
         {
-          "category": "unallocated",
-          "base_amount": 50,
-          "allocated_tax": 0,
-          "allocated_tip": 0,
-          "total": 50,
-          "transactions": 1,
-          "rank": 5,
-          "share": 0.03329138618673804,
-          "included_total": 1501.89,
-          "label": "Unallocated correction"
-        },
-        {
           "category": "personal_care",
           "base_amount": 27.96,
           "allocated_tax": 0.84,
           "allocated_tip": 0,
           "total": 28.8,
           "transactions": 2,
-          "rank": 6,
+          "rank": 5,
           "share": 0.019175838443561112,
           "included_total": 1501.89,
           "label": "Personal care"
@@ -1076,7 +1068,7 @@
           "allocated_tip": 0,
           "total": 25,
           "transactions": 1,
-          "rank": 7,
+          "rank": 6,
           "share": 0.01664569309336902,
           "included_total": 1501.89,
           "label": "Miscellaneous"
@@ -1088,22 +1080,10 @@
           "allocated_tip": 0,
           "total": 20,
           "transactions": 2,
-          "rank": 8,
+          "rank": 7,
           "share": 0.013316554474695217,
           "included_total": 1501.89,
           "label": "Recreation"
-        },
-        {
-          "category": "household_supplies",
-          "base_amount": 0.1,
-          "allocated_tax": 0,
-          "allocated_tip": 0,
-          "total": 0.1,
-          "transactions": 1,
-          "rank": 9,
-          "share": 6.658277237347608e-05,
-          "included_total": 1501.89,
-          "label": "Household supplies"
         }
       ],
       "states": [
@@ -1193,7 +1173,7 @@
           "merchant": "Maverik",
           "transactions": 5,
           "total": 225.16,
-          "fuel_amount": 146.29,
+          "fuel_amount": 196.29,
           "rank": 1,
           "share": 0.14991777027611874,
           "included_total": 1501.89,
@@ -1455,7 +1435,7 @@
           "merchant": "Maverik",
           "transactions": 5,
           "total": 225.16,
-          "fuel_amount": 146.29,
+          "fuel_amount": 196.29,
           "rank": 1,
           "share": 0.14991777027611874,
           "included_total": 1501.89,
@@ -1784,6 +1764,22 @@
           "gallons_label": "11.501 gal"
         },
         {
+          "merchant": "Maverik",
+          "city": "Green River",
+          "state": "WY",
+          "purchase_date": "2026-08-17",
+          "fuel_grade": null,
+          "fuel_gallons": null,
+          "fuel_unit_price": null,
+          "fuel_amount": 50,
+          "effective_unit_price": null,
+          "date_label": "Aug 17, 2026",
+          "location": "Green River, WY",
+          "grade_printed": "Not supplied (user-confirmed fuel)",
+          "price_label": "Not supplied",
+          "gallons_label": "Not supplied"
+        },
+        {
           "merchant": "Jeremy Store",
           "city": "Park City",
           "state": "UT",
@@ -1942,6 +1938,13 @@
           "total": 53.97,
           "gallons": 11.247,
           "weighted_price": 4.798612963456922
+        },
+        {
+          "fuel_grade": "Unknown grade",
+          "purchases": 1,
+          "total": 50,
+          "gallons": null,
+          "weighted_price": null
         }
       ],
       "food": [
@@ -1956,20 +1959,20 @@
           "share": 0.2054478024355978,
           "included_total": 1501.89,
           "label": "Restaurants & prepared meals",
-          "food_share": 0.5737875632252306
+          "food_share": 0.5736808835012829
         },
         {
           "category": "groceries",
-          "base_amount": 158.54,
+          "base_amount": 158.64,
           "allocated_tax": 5.08,
           "allocated_tip": 0,
-          "total": 163.62,
+          "total": 163.72,
           "transactions": 5,
           "rank": 3,
-          "share": 0.10894273215748157,
+          "share": 0.10900931492985504,
           "included_total": 1501.89,
           "label": "Groceries",
-          "food_share": 0.3042621243677477
+          "food_share": 0.3043914773361098
         },
         {
           "category": "snacks_drinks",
@@ -1982,13 +1985,13 @@
           "share": 0.04366498212252561,
           "included_total": 1501.89,
           "label": "Convenience snacks & drinks",
-          "food_share": 0.12195031240702171
+          "food_share": 0.12192763916260736
         }
       ],
       "food_summary": [
         {
-          "total": 537.76,
-          "share": 0.358055516715605
+          "total": 537.86,
+          "share": 0.35812209948797846
         }
       ]
     }
@@ -2020,7 +2023,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2042,7 +2045,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2064,7 +2067,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2086,7 +2089,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2108,7 +2111,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2130,7 +2133,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2152,7 +2155,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2174,7 +2177,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2196,7 +2199,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2218,7 +2221,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2240,7 +2243,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2262,7 +2265,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2284,7 +2287,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price is total charged fuel amount divided by total gallons."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
