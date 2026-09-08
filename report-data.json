@@ -15,7 +15,7 @@
       {
         "id": "executive_summary",
         "type": "markdown",
-        "body": "## Executive Summary\n\n- **The supplied trip spending totals $1,501.89.** This includes $1,351.66 on fully dated trip receipts, $75.23 on provisionally included undated receipts, and $75.00 you reported separately. The miscellaneous $25.00 is estimated. Two July receipts totaling $134.42 are excluded.\n- **Fuel is the largest expense: $890.23, or 59.3% of the included total.** The 16 fully quantified fuel purchases account for 179.718 gallons at a gallon-weighted effective price of $4.675 per gallon; the additional $50.00 fuel allocation has no supplied volume or unit price and is excluded from that average. Food and drinks account for another $537.86.\n- **Utah has the most recorded spending, at $506.03.** Among fully dated receipts, Aug 17, 2026 is the highest-spending day: $296.14 across 7 purchases. The undated and manual payments cannot be assigned to a day.\n\nThis total includes the user-confirmed v2 override alongside supplied receipts and additions; it is not a verified complete cost of the family trip. No lodging payments or mileage records were provided.",
+        "body": "## Recorded trip spending is $1,819.53\n\n**The supplied evidence and manual additions support 53 included payments totaling $1,819.53.** Fuel is $989.96 (54.4%); food and drinks are $755.77 (41.5%). This includes the preserved user-confirmed $50 fuel correction and the ten newly reviewed images. It is not a verified complete cost of the family trip: lodging and mileage records were not supplied.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -25,6 +25,13 @@
         "layout": "full",
         "sourceId": "public_report_data",
         "body": "## V2 correction adds $50.00 to recorded spending\n\nThe August 17 Maverik purchase in Green River, Wyoming is recorded as **$53.37**, replacing $3.37, following your explicit confirmation. The original printed itemization still reconciles to $3.37 ($3.18 plus $0.19 tax); $53.37 is a **user-confirmed override**, not a newly verified printed amount.\n\nYou subsequently confirmed that the additional **$50.00 is fuel**. It is now included in fuel spending, with no unallocated balance. Its gallons, grade, and unit price remain unknown, so it is excluded from fuel-price averages. The known $3.37 convenience-drink allocation and printed tax are unchanged. This replaces one receipt total and does not add another payment."
+      },
+      {
+        "id": "v3_evidence",
+        "type": "markdown",
+        "layout": "full",
+        "sourceId": "public_report_data",
+        "body": "## Ten additional images add eight payments and $317.64\n\nThree pump photos and seven bank screenshots contribute **$99.73 in fuel, $164.60 in restaurants, and $53.31 in groceries**. Two images support existing purchases and add no spending: a matching $40.21 pump photo and an $8.65 Creamery bank transaction. The Creamery match is a merchant-and-amount assumption, not a transaction-ID confirmation; its bank transaction date places it on August 20. The two separate Andy’s bank charges are retained as separate payments.\n\n**DoorDash / Kneaders is assigned to Utah at your explicit instruction.** The bank’s San Francisco platform billing address is not the purchase location. Its city and map point remain unknown. Bank transaction dates—not posting dates—drive the daily chart. Pump-photo capture dates approximate purchase dates; no printed transaction timestamp is claimed. No missing taxes, tips, items, fuel grades, or posted pump prices are invented."
       },
       {
         "id": "headline_metrics",
@@ -38,7 +45,7 @@
       {
         "id": "scope_definition",
         "type": "markdown",
-        "body": "## The spending total has a clear evidence boundary\n\n**The trip window is Aug 14, 2026 through Aug 30, 2026, inclusive.** The included total covers 43 image-backed purchases and 2 manual additions. A receipt’s final charged total is counted once; card-payment sections, subtotals and individual line items are not added again.\n\nThe table separates payments with fully readable trip dates from the four undated receipts and your manual additions. Only fully dated receipts enter the daily chart. July purchases contribute nothing to the trip comparisons below; only their aggregate exclusion count and amount are public. All amounts are US dollars.",
+        "body": "## The spending total has a clear evidence boundary\n\n**The trip window is August 14–30, 2026, inclusive.** There are 51 included image-backed payments and two manual additions. Ten new images add eight payments; two support previously counted payments. Each final payment is counted once. Line items, subtotals, card-payment sections, and supporting evidence are not counted again.\n\nThe daily chart includes 48 payments with assigned dates. Three undated image-backed payments and two manual additions remain outside it. July purchases contribute nothing to the trip comparisons below; only their aggregate exclusion count and amount are public. All amounts are US dollars.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -51,7 +58,7 @@
       {
         "id": "category_findings",
         "type": "markdown",
-        "body": "## Fuel accounts for 59.3% of supplied spending\n\n**Fuel leads at $890.23; restaurants and prepared meals follow at $308.56.** Read the bars as all-in spending by what was purchased, rather than by the kind of store. Prepared Maverik meals count as restaurants; gas remains fuel; nonfood Walmart items keep their own categories.\n\nDiscounts reduce the related category. Receipt taxes are allocated across item categories where necessary, so mixed-receipt category totals are estimates at the category level even though they reconcile exactly to the charged receipt. Fuel tax is generally embedded in the pump price, not an additional amount. The checkout-bag fee is grouped with groceries, not shown as a separate spending category.\n\nFuel includes the $50.00 user-confirmed allocation. The previously captured $0.19 tax remains with its known convenience-drink item; no extra tax or tip is inferred for the fuel correction.",
+        "body": "## Fuel accounts for 54.4% of supplied spending\n\n**Fuel leads at $989.96; restaurants and prepared meals follow at $473.16.** Read the bars as all-in spending by what was purchased, rather than by the kind of store. Prepared Maverik meals count as restaurants; gas remains fuel; nonfood Walmart items keep their own categories.\n\nDiscounts reduce the related category. Receipt taxes are allocated across item categories where necessary, so mixed-receipt category totals are estimates at the category level even though they reconcile exactly to the charged receipt. Fuel tax is generally embedded in the pump price, not an additional amount. The $0.10 checkout-bag charge is grouped into groceries at your request, not shown as its own category.\n\nThe $50.00 confirmed correction remains fuel. New bank-only purchases are allocated by merchant and transaction type as all-in charges; their separate tax, tip, and item composition are unknown. A blank tax field does not mean no tax was paid.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -76,7 +83,7 @@
       {
         "id": "food_findings",
         "type": "markdown",
-        "body": "## Restaurants cost about 1.9 times the grocery spending\n\n**Food and drinks total $537.86, or 35.8% of included spending.** Restaurant and prepared-meal purchases total $308.56, including the $50 Utah steakhouse payment. Groceries total $163.72; convenience snacks and drinks add $65.58.\n\nThe grocery category includes food and drinks bought at grocery stores and Walmart; convenience snacks/drinks describes those purchases at travel stops and similar outlets. This distinction is useful for planning the next trip, but it does not establish when the food was eaten. No separate steakhouse tax, tip, menu items or purchase date were supplied, so the reported $50 is counted as one all-in payment. Grocery spending includes associated checkout-bag charges, grouped there at your request.",
+        "body": "## Restaurants cost about 2.2 times the grocery spending\n\n**Food and drinks total $755.77, or 41.5% of included spending.** Restaurant and prepared-meal purchases total $473.16, including the $50 Utah steakhouse payment. Groceries total $217.03; convenience snacks and drinks add $65.58.\n\nThe grocery category includes food and drinks bought at grocery stores and Walmart; convenience snacks/drinks describes those purchases at travel stops and similar outlets. This distinction is useful for planning the next trip, but it does not establish when the food was eaten. No separate steakhouse tax, tip, menu items or purchase date were supplied, so the reported $50 is counted as one all-in payment. Grocery spending includes checkout-bag charges. Bank-only restaurant charges are all-in amounts with no inferred tip or item split.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -89,7 +96,7 @@
       {
         "id": "state_findings",
         "type": "markdown",
-        "body": "## Utah and Colorado account for 56.0% of spending\n\n**Utah leads with $506.03, followed by Colorado at $334.83.** These figures include provisionally undated receipts wherever the purchase location is known. Utah also includes the reported $50 steakhouse payment; the $25 miscellaneous estimate remains in the unknown-state group.\n\nThe receipts document purchases in Wyoming, Missouri, Illinois and Kentucky as well as the states described in the itinerary. Tennessee has no included, dated trip purchase in the supplied batch. Missing Tennessee spending should not be read as evidence that nothing was spent there.",
+        "body": "## Utah and Colorado account for 58.2% of spending\n\n**Utah leads with $631.91, followed by Colorado at $426.86.** These figures include provisionally undated receipts wherever the purchase location is known. Utah also includes the reported $50 steakhouse payment; the $25 miscellaneous estimate remains in the unknown-state group.\n\nThe receipts document purchases in Wyoming, Missouri, Illinois and Kentucky as well as the states described in the itinerary. Tennessee has no included, dated trip purchase in the supplied batch. Missing Tennessee spending should not be read as evidence that nothing was spent there. DoorDash / Kneaders contributes $83.75 to Utah by user confirmation, without a guessed city or coordinate.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -127,7 +134,7 @@
       {
         "id": "fuel_findings",
         "type": "markdown",
-        "body": "## Fully quantified fuel averaged $4.675 per gallon, weighted by gallons purchased\n\n**Fuel spending totals $890.23 across 17 payments with a fuel component.** Of this, $840.23 across 16 fully quantified purchases bought 179.718 gallons. The other $50.00 is your confirmed fuel allocation with unknown gallons, grade, and unit price. Dividing only the quantified fuel charges by their gallons gives **$4.675/gal**. The simple average of printed pump prices is **$4.692/gal**, giving a small fill-up the same weight as a large one. The gallon-weighted average of the printed prices is $4.675/gal; tiny differences from the charged-price calculation reflect receipt rounding.\n\n**The lowest printed price is $4.099/gal at Tumbleweed Express in Laramie, WY, on Aug 17, 2026.** The highest is $5.199/gal at Seibert Travel Stop in Seibert, CO, on Aug 29, 2026. The spread is $1.100/gal; it is an observed trip range, not proof of a persistent state or station price advantage.\n\nThe receipts identify **15 premium purchases and one BP Ultimate purchase**; the BP receipt does not print an octane number. These prices should not be compared to regular-grade averages. The table includes the confirmed $50.00 fuel allocation with unknown details clearly labeled and preserves each printed grade, including E10 and 93E10 descriptions, with three-decimal posted prices and volumes. July purchases are excluded. Without distance or odometer readings, the receipts do not support MPG, fuel cost per mile, or total miles driven.",
+        "body": "## Measured fuel averaged $4.649 per gallon, weighted by volume\n\n**Fuel spending is $989.96 across 19 payments with a fuel component.** Eighteen purchases with known volume total $939.96 for 202.187 gallons, giving a paid-amount/volume average of **$4.649/gal**. The remaining $50.00 confirmed fuel allocation has no supplied gallons and is excluded from this average.\n\nOnly **16 purchases** have posted unit prices: their $840.23 and 179.718 gallons form a different comparison population. The simple average of their posted prices is **$4.692/gal** and their gallon-weighted posted average is **$4.675/gal**. The two new pump photos show $62.80/14.439 gallons and $36.93/8.030 gallons; derived effective prices are $4.349 and $4.599 per gallon, not verified posted prices. Differences between the overall effective average and posted-price averages now reflect different purchase populations, not merely rounding.\n\n**The lowest printed price is $4.099/gal at Tumbleweed Express in Laramie, WY, on Aug 17, 2026.** The highest is $5.199/gal at Seibert Travel Stop in Seibert, CO, on Aug 29, 2026. The spread is $1.100/gal; it is an observed trip range, not proof of a persistent state or station price advantage.\n\nFifteen original purchases are labeled Premium and one BP Ultimate; the two new pump photos do not show a grade. The $50 correction also has no grade. Do not compare these mixed/unknown-grade observations with regular-grade averages. July purchases are excluded. Without mileage, MPG and fuel cost per mile cannot be calculated.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -140,7 +147,7 @@
       {
         "id": "daily_findings",
         "type": "markdown",
-        "body": "## Aug 17 is the highest-spending dated day\n\n**The highest fully dated daily total is $296.14, from 7 purchases on Aug 17, 2026.** The chart shows every day of the trip, using the local date printed on each receipt. This helps distinguish travel-day purchase clusters from days with fewer supplied receipts; it does not measure time spent in each state.\n\nThe bars sum to $1,351.66, not the full $1,501.89 report total. Another **$150.23 has no complete assigned date**: $75.23 of receipt spending plus $75.00 of manual additions. A zero bar means no supplied dated receipt for that day, not verified zero spending. Undated purchases could change the highest-day result.",
+        "body": "## Aug 17 is the highest-spending dated day\n\n**The highest fully dated daily total is $311.08, from 8 purchases on Aug 17, 2026.** The chart shows every day of the trip, using printed receipt dates, bank transaction dates, or approximate local pump-photo capture dates. This helps distinguish travel-day purchase clusters from days with fewer supplied receipts; it does not measure time spent in each state.\n\nThe bars sum to $1,677.95, not the full $1,819.53 report total. Another **$141.58 has no complete assigned date**: $66.58 of receipt spending plus $75.00 of manual additions. A zero bar means no supplied dated receipt for that day, not verified zero spending. Undated purchases could change the highest-day result.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -153,14 +160,14 @@
       {
         "id": "coverage_findings",
         "type": "markdown",
-        "body": "## Dates and missing expenses are the next useful checks\n\n**The most useful follow-up is to date the $150.23 currently outside the daily chart and confirm whether either July purchase was trip preparation.** The six undated payments remain in aggregate spending but are not individually listed in this public report. Missing dates are left unknown rather than guessed.\n\nRestaurant tips, lodging, online bookings, mileage and any other purchases absent from the supplied material are not recoverable from these receipts. No separately printed tip has been added, and missing tip/tax fields do not prove that a charge was absent. Mixed-category tax splits are approximate. Where an item amount is unreadable, a readable receipt subtotal can support category allocation without inventing a per-item price.\n\nTo refine the analysis, add any missing lodging or other payments, give dates for the manual additions if known, and confirm the undated receipts. The frozen v1 totals remain intact; this v2 report applies the documented user-confirmed override and fuel allocation, with its missing fuel quantity and price left visible.",
+        "body": "## Unknown dates and missing expenses remain visible\n\n**$141.58 remains outside the daily chart:** $66.58 from three undated image-backed purchases plus $75.00 in manual additions. Missing dates are not guessed. The bank-supported Creamery date is provisional because its cross-image match uses merchant and amount.\n\nBank screenshots do not disclose purchased items or a separate tax/tip split. Pump photos do not show posted prices or grades. Restaurant tips, lodging, mileage, and other absent purchases cannot be recovered from this evidence. Earlier user corrections are retained; original and v1/v2 artifacts remain unchanged.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
       {
         "id": "map_coverage",
         "type": "markdown",
-        "body": "## The companion maps locate purchases, not a reconstructed driving route\n\n**All 43 included image-backed purchases have a map location.** Underlying location matching used 36 address interpolations, 2 verified business locations and 5 city approximations. For privacy, every public map point is rounded to two decimal places and labeled approximate. The public map does not expose exact purchase coordinates or distinguish the original matching precision. These are not GPS observations; merchant and city may still identify a store.\n\nThe two manual additions have no point location. Utah is known for the steakhouse, but the exact restaurant is not. Purchase dots can show where money was spent; they do not establish the roads driven, route length, or an exact sequence when dates or times are uncertain.",
+        "body": "## The companion maps locate purchases, not a reconstructed driving route\n\n**50 of 53 included payments have a point location, representing $1,660.78.** The remaining $158.75 consists of DoorDash and two manual additions. DoorDash and the steakhouse are assigned to Utah, but neither has a known city or point. Location evidence includes address interpolation, verified businesses, approximate cities, and two new pump-photo GPS locations. City and interpolated points are not GPS observations.\n\nEvery public map point is rounded to two decimal places and labeled approximate; merchant and city may still identify a store. Purchase dots do not establish the roads driven, route length, or an exact sequence when dates or times are uncertain.",
         "layout": "full",
         "sourceId": "public_report_data"
       }
@@ -462,7 +469,7 @@
       {
         "id": "category_table",
         "title": "Category amounts",
-        "subtitle": "Net item amounts plus allocated tax and tip; shares use all included spending.",
+        "subtitle": "All-in USD; base includes unsplit bank charges when separate tax/tip is unknown. Shares use all included spending.",
         "showDescription": true,
         "dataset": "categories",
         "sourceId": "public_categories",
@@ -580,7 +587,7 @@
       {
         "id": "fuel_table",
         "title": "Every included fuel purchase",
-        "subtitle": "One row per fuel expense · prices are USD/gallon · the user-confirmed $50 allocation has no supplied quantity or unit price.",
+        "subtitle": "19 fuel payments · posted prices missing for two pump photos and the $50 correction · known volumes retained.",
         "showDescription": true,
         "dataset": "fuel",
         "sourceId": "public_fuel",
@@ -656,7 +663,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -678,7 +685,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -700,7 +707,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -722,7 +729,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -744,7 +751,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -766,7 +773,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -788,7 +795,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -810,7 +817,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -832,7 +839,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -854,7 +861,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -876,7 +883,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -898,7 +905,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -920,7 +927,7 @@
           ],
           "metric_definitions": [
             "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-            "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+            "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
           ],
           "engine": "DuckDB",
           "language": "sql",
@@ -936,42 +943,45 @@
     "datasets": {
       "summary": [
         {
-          "transactions": 45,
-          "total": 1501.89,
-          "receipt_total": 1426.89,
-          "dated_receipt_total": 1351.66,
-          "undated_receipt_total": 75.23,
+          "transactions": 53,
+          "total": 1819.53,
+          "receipt_total": 1744.53,
+          "dated_receipt_total": 1677.95,
+          "undated_receipt_total": 66.58,
           "manual_total": 75,
           "estimated_total": 25,
-          "known_totals": 45,
-          "dated_transactions": 39,
-          "mapped_transactions": 43,
+          "known_totals": 53,
+          "dated_transactions": 48,
+          "mapped_transactions": 50,
           "printed_tax": 28.58,
           "printed_tip": 0
         }
       ],
       "fuel_summary": [
         {
-          "purchases": 17,
-          "total": 890.23,
-          "gallons": 179.718,
-          "weighted_effective_price": 4.675269032595511,
+          "purchases": 19,
+          "total": 989.96,
+          "gallons": 202.187,
+          "weighted_effective_price": 4.648963583217516,
           "weighted_posted_price": 4.675261420670161,
           "simple_average_posted_price": 4.6915,
           "cheapest_posted_price": 4.099,
           "highest_posted_price": 5.199,
-          "quantified_purchases": 16,
-          "quantified_total": 840.23,
+          "quantified_purchases": 18,
+          "quantified_total": 939.96,
           "unquantified_purchases": 1,
-          "unquantified_total": 50
+          "unquantified_total": 50,
+          "posted_price_purchases": 16,
+          "posted_price_gallons": 179.718,
+          "posted_price_total": 840.23
         }
       ],
       "scope": [
         {
           "scope": "dated_trip",
-          "transactions": 39,
-          "known_totals": 39,
-          "total": 1351.66,
+          "transactions": 48,
+          "known_totals": 48,
+          "total": 1677.95,
           "label": "Dated trip receipts",
           "treatment": "Included"
         },
@@ -984,57 +994,57 @@
           "treatment": "Excluded"
         },
         {
-          "scope": "undated_provisional",
-          "transactions": 4,
-          "known_totals": 4,
-          "total": 75.23,
-          "label": "Undated receipts — provisional",
-          "treatment": "Included"
-        },
-        {
           "scope": "manual_addition",
           "transactions": 2,
           "known_totals": 2,
           "total": 75,
           "label": "User-reported additions",
           "treatment": "Included"
+        },
+        {
+          "scope": "undated_provisional",
+          "transactions": 3,
+          "known_totals": 3,
+          "total": 66.58,
+          "label": "Undated receipts — provisional",
+          "treatment": "Included"
         }
       ],
       "categories": [
         {
           "category": "fuel",
-          "base_amount": 890.23,
+          "base_amount": 989.96,
           "allocated_tax": 0,
           "allocated_tip": 0,
-          "total": 890.23,
-          "transactions": 17,
+          "total": 989.96,
+          "transactions": 19,
           "rank": 1,
-          "share": 0.5927398145003961,
-          "included_total": 1501.89,
+          "share": 0.5440745687073035,
+          "included_total": 1819.53,
           "label": "Fuel"
         },
         {
           "category": "restaurants",
-          "base_amount": 288.32,
+          "base_amount": 452.92,
           "allocated_tax": 20.24,
           "allocated_tip": 0,
-          "total": 308.56,
-          "transactions": 12,
+          "total": 473.16,
+          "transactions": 17,
           "rank": 2,
-          "share": 0.2054478024355978,
-          "included_total": 1501.89,
+          "share": 0.26004517650162406,
+          "included_total": 1819.53,
           "label": "Restaurants & prepared meals"
         },
         {
           "category": "groceries",
-          "base_amount": 158.64,
+          "base_amount": 211.95,
           "allocated_tax": 5.08,
           "allocated_tip": 0,
-          "total": 163.72,
-          "transactions": 5,
+          "total": 217.03,
+          "transactions": 6,
           "rank": 3,
-          "share": 0.10900931492985504,
-          "included_total": 1501.89,
+          "share": 0.11927805532197876,
+          "included_total": 1819.53,
           "label": "Groceries"
         },
         {
@@ -1045,8 +1055,8 @@
           "total": 65.58,
           "transactions": 9,
           "rank": 4,
-          "share": 0.04366498212252561,
-          "included_total": 1501.89,
+          "share": 0.036042274653344544,
+          "included_total": 1819.53,
           "label": "Convenience snacks & drinks"
         },
         {
@@ -1057,8 +1067,8 @@
           "total": 28.8,
           "transactions": 2,
           "rank": 5,
-          "share": 0.019175838443561112,
-          "included_total": 1501.89,
+          "share": 0.015828263342731366,
+          "included_total": 1819.53,
           "label": "Personal care"
         },
         {
@@ -1069,8 +1079,8 @@
           "total": 25,
           "transactions": 1,
           "rank": 6,
-          "share": 0.01664569309336902,
-          "included_total": 1501.89,
+          "share": 0.01373981192945431,
+          "included_total": 1819.53,
           "label": "Miscellaneous"
         },
         {
@@ -1081,30 +1091,30 @@
           "total": 20,
           "transactions": 2,
           "rank": 7,
-          "share": 0.013316554474695217,
-          "included_total": 1501.89,
+          "share": 0.010991849543563447,
+          "included_total": 1819.53,
           "label": "Recreation"
         }
       ],
       "states": [
         {
           "state": "UT",
-          "transactions": 14,
-          "total": 506.03,
+          "transactions": 17,
+          "total": 631.91,
           "manual_amount": 50,
           "rank": 1,
-          "share": 0.336928803041501,
-          "included_total": 1501.89,
+          "share": 0.3472929822536589,
+          "included_total": 1819.53,
           "label": "Utah"
         },
         {
           "state": "CO",
-          "transactions": 11,
-          "total": 334.83,
+          "transactions": 14,
+          "total": 426.86,
           "manual_amount": 0,
           "rank": 2,
-          "share": 0.22293909673810997,
-          "included_total": 1501.89,
+          "share": 0.23459904480827468,
+          "included_total": 1819.53,
           "label": "Colorado"
         },
         {
@@ -1113,8 +1123,8 @@
           "total": 226.29,
           "manual_amount": 0,
           "rank": 3,
-          "share": 0.150670155603939,
-          "included_total": 1501.89,
+          "share": 0.12436728166064863,
+          "included_total": 1819.53,
           "label": "Kansas"
         },
         {
@@ -1123,39 +1133,39 @@
           "total": 170.25,
           "manual_amount": 0,
           "rank": 4,
-          "share": 0.11335716996584302,
-          "included_total": 1501.89,
+          "share": 0.09356811923958384,
+          "included_total": 1819.53,
           "label": "Wyoming"
         },
         {
           "state": "MO",
-          "transactions": 3,
-          "total": 102.57,
+          "transactions": 4,
+          "total": 165.37,
           "manual_amount": 0,
           "rank": 5,
-          "share": 0.06829394962347442,
-          "included_total": 1501.89,
+          "share": 0.09088610795095436,
+          "included_total": 1819.53,
           "label": "Missouri"
+        },
+        {
+          "state": "KY",
+          "transactions": 3,
+          "total": 98.83,
+          "manual_amount": 0,
+          "rank": 6,
+          "share": 0.05431622451951878,
+          "included_total": 1819.53,
+          "label": "Kentucky"
         },
         {
           "state": "IL",
           "transactions": 2,
           "total": 75.02,
           "manual_amount": 0,
-          "rank": 6,
-          "share": 0.04995039583458175,
-          "included_total": 1501.89,
-          "label": "Illinois"
-        },
-        {
-          "state": "KY",
-          "transactions": 2,
-          "total": 61.9,
-          "manual_amount": 0,
           "rank": 7,
-          "share": 0.04121473609918169,
-          "included_total": 1501.89,
-          "label": "Kentucky"
+          "share": 0.04123042763790649,
+          "included_total": 1819.53,
+          "label": "Illinois"
         },
         {
           "state": "Unknown",
@@ -1163,8 +1173,8 @@
           "total": 25,
           "manual_amount": 25,
           "rank": 8,
-          "share": 0.01664569309336902,
-          "included_total": 1501.89,
+          "share": 0.01373981192945431,
+          "included_total": 1819.53,
           "label": "Unknown state"
         }
       ],
@@ -1175,8 +1185,8 @@
           "total": 225.16,
           "fuel_amount": 196.29,
           "rank": 1,
-          "share": 0.14991777027611874,
-          "included_total": 1501.89,
+          "share": 0.1237462421614373,
+          "included_total": 1819.53,
           "label": "Maverik"
         },
         {
@@ -1185,8 +1195,8 @@
           "total": 178.53,
           "fuel_amount": 90.45,
           "rank": 2,
-          "share": 0.11887022351836685,
-          "included_total": 1501.89,
+          "share": 0.09811874495061912,
+          "included_total": 1819.53,
           "label": "Smith's"
         },
         {
@@ -1195,8 +1205,8 @@
           "total": 137.53,
           "fuel_amount": 137.53,
           "rank": 3,
-          "share": 0.09157128684524166,
-          "included_total": 1501.89,
+          "share": 0.07558545338631405,
+          "included_total": 1819.53,
           "label": "Costco"
         },
         {
@@ -1205,18 +1215,28 @@
           "total": 86.5,
           "fuel_amount": 83.28,
           "rank": 4,
-          "share": 0.05759409810305681,
-          "included_total": 1501.89,
+          "share": 0.04753974927591191,
+          "included_total": 1819.53,
           "label": "D&S Convenience"
+        },
+        {
+          "merchant": "DoorDash / Kneaders",
+          "transactions": 1,
+          "total": 83.75,
+          "fuel_amount": 0,
+          "rank": 5,
+          "share": 0.04602836996367194,
+          "included_total": 1819.53,
+          "label": "DoorDash / Kneaders"
         },
         {
           "merchant": "Walmart",
           "transactions": 3,
           "total": 83.28,
           "fuel_amount": 0,
-          "rank": 5,
-          "share": 0.05545013283263088,
-          "included_total": 1501.89,
+          "rank": 6,
+          "share": 0.0457700614993982,
+          "included_total": 1819.53,
           "label": "Walmart"
         },
         {
@@ -1224,19 +1244,29 @@
           "transactions": 2,
           "total": 81.05,
           "fuel_amount": 75.61,
-          "rank": 6,
-          "share": 0.05396533700870236,
-          "included_total": 1501.89,
+          "rank": 7,
+          "share": 0.04454447027529087,
+          "included_total": 1819.53,
           "label": "Midway Travel Plaza"
+        },
+        {
+          "merchant": "King Soopers",
+          "transactions": 2,
+          "total": 74.47,
+          "fuel_amount": 0,
+          "rank": 8,
+          "share": 0.0409281517754585,
+          "included_total": 1819.53,
+          "label": "King Soopers"
         },
         {
           "merchant": "Shell",
           "transactions": 2,
           "total": 64.82,
           "fuel_amount": 51.6,
-          "rank": 7,
-          "share": 0.043158953052487195,
-          "included_total": 1501.89,
+          "rank": 9,
+          "share": 0.03562458437068913,
+          "included_total": 1819.53,
           "label": "Shell"
         },
         {
@@ -1244,19 +1274,29 @@
           "transactions": 3,
           "total": 63.44,
           "fuel_amount": 0,
-          "rank": 8,
-          "share": 0.04224011079373322,
-          "included_total": 1501.89,
+          "rank": 10,
+          "share": 0.034866146752183254,
+          "included_total": 1819.53,
           "label": "McDonald's"
+        },
+        {
+          "merchant": "QuikTrip",
+          "transactions": 1,
+          "total": 62.8,
+          "fuel_amount": 62.8,
+          "rank": 11,
+          "share": 0.034514407566789224,
+          "included_total": 1819.53,
+          "label": "QuikTrip"
         },
         {
           "merchant": "Casey's",
           "transactions": 1,
           "total": 57.13,
           "fuel_amount": 57.13,
-          "rank": 9,
-          "share": 0.03803873785696689,
-          "included_total": 1501.89,
+          "rank": 12,
+          "share": 0.03139821822118899,
+          "included_total": 1819.53,
           "label": "Casey's"
         },
         {
@@ -1264,9 +1304,9 @@
           "transactions": 1,
           "total": 53.97,
           "fuel_amount": 53.97,
-          "rank": 10,
-          "share": 0.035934722249965044,
-          "included_total": 1501.89,
+          "rank": 13,
+          "share": 0.029661505993305963,
+          "included_total": 1819.53,
           "label": "BP / Max's"
         },
         {
@@ -1274,9 +1314,9 @@
           "transactions": 2,
           "total": 50.94,
           "fuel_amount": 40.21,
-          "rank": 11,
-          "share": 0.03391726424704872,
-          "included_total": 1501.89,
+          "rank": 14,
+          "share": 0.0279962407874561,
+          "included_total": 1819.53,
           "label": "24/7 Travel Store"
         },
         {
@@ -1284,9 +1324,9 @@
           "transactions": 1,
           "total": 50,
           "fuel_amount": 0,
-          "rank": 12,
-          "share": 0.03329138618673804,
-          "included_total": 1501.89,
+          "rank": 15,
+          "share": 0.02747962385890862,
+          "included_total": 1819.53,
           "label": "Unspecified steakhouse"
         },
         {
@@ -1294,19 +1334,29 @@
           "transactions": 1,
           "total": 48.05,
           "fuel_amount": 0,
-          "rank": 13,
-          "share": 0.03199302212545525,
-          "included_total": 1501.89,
+          "rank": 16,
+          "share": 0.026407918528411182,
+          "included_total": 1819.53,
           "label": "Costa Vida"
+        },
+        {
+          "merchant": "Pilot",
+          "transactions": 2,
+          "total": 44.86,
+          "fuel_amount": 36.93,
+          "rank": 17,
+          "share": 0.024654718526212812,
+          "included_total": 1819.53,
+          "label": "Pilot"
         },
         {
           "merchant": "Tumbleweed Express",
           "transactions": 2,
           "total": 43.81,
           "fuel_amount": 40.17,
-          "rank": 14,
-          "share": 0.029169912576819872,
-          "included_total": 1501.89,
+          "rank": 18,
+          "share": 0.024077646425175733,
+          "included_total": 1819.53,
           "label": "Tumbleweed Express"
         },
         {
@@ -1314,19 +1364,29 @@
           "transactions": 2,
           "total": 40.62,
           "fuel_amount": 26.18,
-          "rank": 15,
-          "share": 0.02704592213810598,
-          "included_total": 1501.89,
+          "rank": 19,
+          "share": 0.022324446422977363,
+          "included_total": 1819.53,
           "label": "Seibert Travel Stop"
+        },
+        {
+          "merchant": "Andy's Frozen Custard",
+          "transactions": 2,
+          "total": 38.72,
+          "fuel_amount": 0,
+          "rank": 20,
+          "share": 0.021280220716338834,
+          "included_total": 1819.53,
+          "label": "Andy's Frozen Custard"
         },
         {
           "merchant": "Iceberg Drive Inn",
           "transactions": 2,
           "total": 38.46,
           "fuel_amount": 0,
-          "rank": 16,
-          "share": 0.025607734254838904,
-          "included_total": 1501.89,
+          "rank": 21,
+          "share": 0.02113732667227251,
+          "included_total": 1819.53,
           "label": "Iceberg Drive Inn"
         },
         {
@@ -1334,9 +1394,9 @@
           "transactions": 1,
           "total": 37.81,
           "fuel_amount": 37.81,
-          "rank": 17,
-          "share": 0.02517494623441131,
-          "included_total": 1501.89,
+          "rank": 22,
+          "share": 0.0207800915621067,
+          "included_total": 1819.53,
           "label": "Jeremy Store"
         },
         {
@@ -1344,19 +1404,29 @@
           "transactions": 1,
           "total": 30.98,
           "fuel_amount": 0,
-          "rank": 18,
-          "share": 0.02062734288130289,
-          "included_total": 1501.89,
+          "rank": 23,
+          "share": 0.01702637494297978,
+          "included_total": 1819.53,
           "label": "Cafe Zupas"
+        },
+        {
+          "merchant": "BYU Creamery Fountain",
+          "transactions": 1,
+          "total": 27.19,
+          "fuel_amount": 0,
+          "rank": 24,
+          "share": 0.014943419454474508,
+          "included_total": 1819.53,
+          "label": "BYU Creamery Fountain"
         },
         {
           "merchant": "Unspecified miscellaneous expense",
           "transactions": 1,
           "total": 25,
           "fuel_amount": 0,
-          "rank": 19,
-          "share": 0.01664569309336902,
-          "included_total": 1501.89,
+          "rank": 25,
+          "share": 0.01373981192945431,
+          "included_total": 1819.53,
           "label": "Unspecified miscellaneous expense"
         },
         {
@@ -1364,9 +1434,9 @@
           "transactions": 1,
           "total": 21.79,
           "fuel_amount": 0,
-          "rank": 20,
-          "share": 0.014508386100180438,
-          "included_total": 1501.89,
+          "rank": 26,
+          "share": 0.011975620077712376,
+          "included_total": 1819.53,
           "label": "Subway"
         },
         {
@@ -1374,59 +1444,49 @@
           "transactions": 1,
           "total": 21.69,
           "fuel_amount": 0,
-          "rank": 21,
-          "share": 0.014441803327806963,
-          "included_total": 1501.89,
+          "rank": 27,
+          "share": 0.01192066082999456,
+          "included_total": 1819.53,
           "label": "In-N-Out Burger"
-        },
-        {
-          "merchant": "King Soopers",
-          "transactions": 1,
-          "total": 21.16,
-          "fuel_amount": 0,
-          "rank": 22,
-          "share": 0.01408891463422754,
-          "included_total": 1501.89,
-          "label": "King Soopers"
         },
         {
           "merchant": "Castlewood State Park",
           "transactions": 2,
           "total": 20,
           "fuel_amount": 0,
-          "rank": 23,
-          "share": 0.013316554474695217,
-          "included_total": 1501.89,
+          "rank": 28,
+          "share": 0.010991849543563447,
+          "included_total": 1819.53,
           "label": "Castlewood State Park"
+        },
+        {
+          "merchant": "Wendy's",
+          "transactions": 1,
+          "total": 14.94,
+          "fuel_amount": 0,
+          "rank": 29,
+          "share": 0.008210911609041895,
+          "included_total": 1819.53,
+          "label": "Wendy's"
         },
         {
           "merchant": "The Creamery Grill",
           "transactions": 1,
           "total": 8.65,
           "fuel_amount": 0,
-          "rank": 24,
-          "share": 0.005759409810305681,
-          "included_total": 1501.89,
+          "rank": 30,
+          "share": 0.004753974927591192,
+          "included_total": 1819.53,
           "label": "The Creamery Grill"
-        },
-        {
-          "merchant": "Pilot",
-          "transactions": 1,
-          "total": 7.93,
-          "fuel_amount": 0,
-          "rank": 25,
-          "share": 0.005280013849216653,
-          "included_total": 1501.89,
-          "label": "Pilot"
         },
         {
           "merchant": "BYU Creamery on 9th East",
           "transactions": 1,
           "total": 3.59,
           "fuel_amount": 0,
-          "rank": 26,
-          "share": 0.0023903215282077912,
-          "included_total": 1501.89,
+          "rank": 31,
+          "share": 0.0019730369930696387,
+          "included_total": 1819.53,
           "label": "BYU Creamery on 9th East"
         }
       ],
@@ -1437,8 +1497,8 @@
           "total": 225.16,
           "fuel_amount": 196.29,
           "rank": 1,
-          "share": 0.14991777027611874,
-          "included_total": 1501.89,
+          "share": 0.1237462421614373,
+          "included_total": 1819.53,
           "label": "Maverik"
         },
         {
@@ -1447,8 +1507,8 @@
           "total": 178.53,
           "fuel_amount": 90.45,
           "rank": 2,
-          "share": 0.11887022351836685,
-          "included_total": 1501.89,
+          "share": 0.09811874495061912,
+          "included_total": 1819.53,
           "label": "Smith's"
         },
         {
@@ -1457,8 +1517,8 @@
           "total": 137.53,
           "fuel_amount": 137.53,
           "rank": 3,
-          "share": 0.09157128684524166,
-          "included_total": 1501.89,
+          "share": 0.07558545338631405,
+          "included_total": 1819.53,
           "label": "Costco"
         },
         {
@@ -1467,18 +1527,28 @@
           "total": 86.5,
           "fuel_amount": 83.28,
           "rank": 4,
-          "share": 0.05759409810305681,
-          "included_total": 1501.89,
+          "share": 0.04753974927591191,
+          "included_total": 1819.53,
           "label": "D&S Convenience"
+        },
+        {
+          "merchant": "DoorDash / Kneaders",
+          "transactions": 1,
+          "total": 83.75,
+          "fuel_amount": 0,
+          "rank": 5,
+          "share": 0.04602836996367194,
+          "included_total": 1819.53,
+          "label": "DoorDash / Kneaders"
         },
         {
           "merchant": "Walmart",
           "transactions": 3,
           "total": 83.28,
           "fuel_amount": 0,
-          "rank": 5,
-          "share": 0.05545013283263088,
-          "included_total": 1501.89,
+          "rank": 6,
+          "share": 0.0457700614993982,
+          "included_total": 1819.53,
           "label": "Walmart"
         },
         {
@@ -1486,30 +1556,20 @@
           "transactions": 2,
           "total": 81.05,
           "fuel_amount": 75.61,
-          "rank": 6,
-          "share": 0.05396533700870236,
-          "included_total": 1501.89,
+          "rank": 7,
+          "share": 0.04454447027529087,
+          "included_total": 1819.53,
           "label": "Midway Travel Plaza"
         },
         {
-          "merchant": "Shell",
+          "merchant": "King Soopers",
           "transactions": 2,
-          "total": 64.82,
-          "fuel_amount": 51.6,
-          "rank": 7,
-          "share": 0.043158953052487195,
-          "included_total": 1501.89,
-          "label": "Shell"
-        },
-        {
-          "merchant": "McDonald's",
-          "transactions": 3,
-          "total": 63.44,
+          "total": 74.47,
           "fuel_amount": 0,
           "rank": 8,
-          "share": 0.04224011079373322,
-          "included_total": 1501.89,
-          "label": "McDonald's"
+          "share": 0.0409281517754585,
+          "included_total": 1819.53,
+          "label": "King Soopers"
         }
       ],
       "daily": [
@@ -1518,136 +1578,136 @@
           "transactions": 4,
           "total": 152.91,
           "day_label": "Aug 14",
-          "dated_total": 1351.66,
-          "share_of_dated_spending": 0.11312756166491572
+          "dated_total": 1677.95,
+          "share_of_dated_spending": 0.09112905628892398
         },
         {
           "day": "2026-08-15",
           "transactions": 6,
           "total": 208.12,
           "day_label": "Aug 15",
-          "dated_total": 1351.66,
-          "share_of_dated_spending": 0.15397363242235473
+          "dated_total": 1677.95,
+          "share_of_dated_spending": 0.12403230132006317
         },
         {
           "day": "2026-08-16",
           "transactions": 0,
           "total": 0,
           "day_label": "Aug 16",
-          "dated_total": 1351.66,
+          "dated_total": 1677.95,
           "share_of_dated_spending": 0
         },
         {
           "day": "2026-08-17",
-          "transactions": 7,
-          "total": 296.14,
+          "transactions": 8,
+          "total": 311.08,
           "day_label": "Aug 17",
-          "dated_total": 1351.66,
-          "share_of_dated_spending": 0.21909355903111727
+          "dated_total": 1677.95,
+          "share_of_dated_spending": 0.1853928901337942
         },
         {
           "day": "2026-08-18",
           "transactions": 1,
           "total": 48.05,
           "day_label": "Aug 18",
-          "dated_total": 1351.66,
-          "share_of_dated_spending": 0.03554888063566281
+          "dated_total": 1677.95,
+          "share_of_dated_spending": 0.028636133377037454
         },
         {
           "day": "2026-08-19",
           "transactions": 1,
           "total": 21.69,
           "day_label": "Aug 19",
-          "dated_total": 1351.66,
-          "share_of_dated_spending": 0.01604693488007339
+          "dated_total": 1677.95,
+          "share_of_dated_spending": 0.012926487678417116
         },
         {
           "day": "2026-08-20",
-          "transactions": 1,
-          "total": 3.59,
+          "transactions": 3,
+          "total": 39.43,
           "day_label": "Aug 20",
-          "dated_total": 1351.66,
-          "share_of_dated_spending": 0.0026559933711140372
+          "dated_total": 1677.95,
+          "share_of_dated_spending": 0.023498912363300456
         },
         {
           "day": "2026-08-21",
           "transactions": 3,
           "total": 128.91,
           "day_label": "Aug 21",
-          "dated_total": 1351.66,
-          "share_of_dated_spending": 0.09537161712264917
+          "dated_total": 1677.95,
+          "share_of_dated_spending": 0.07682588873327571
         },
         {
           "day": "2026-08-22",
           "transactions": 1,
           "total": 23.14,
           "day_label": "Aug 22",
-          "dated_total": 1351.66,
-          "share_of_dated_spending": 0.017119689862835328
+          "dated_total": 1677.95,
+          "share_of_dated_spending": 0.013790637384904198
         },
         {
           "day": "2026-08-23",
           "transactions": 3,
           "total": 120.51,
           "day_label": "Aug 23",
-          "dated_total": 1351.66,
-          "share_of_dated_spending": 0.0891570365328559
+          "dated_total": 1677.95,
+          "share_of_dated_spending": 0.07181978008879883
         },
         {
           "day": "2026-08-24",
           "transactions": 1,
           "total": 66.29,
           "day_label": "Aug 24",
-          "dated_total": 1351.66,
-          "share_of_dated_spending": 0.04904339848778539
+          "dated_total": 1677.95,
+          "share_of_dated_spending": 0.03950654071933014
         },
         {
           "day": "2026-08-25",
-          "transactions": 1,
-          "total": 10,
+          "transactions": 3,
+          "total": 48.72,
           "day_label": "Aug 25",
-          "dated_total": 1351.66,
-          "share_of_dated_spending": 0.007398310225944394
+          "dated_total": 1677.95,
+          "share_of_dated_spending": 0.02903543013796597
         },
         {
           "day": "2026-08-26",
           "transactions": 1,
           "total": 7.08,
           "day_label": "Aug 26",
-          "dated_total": 1351.66,
-          "share_of_dated_spending": 0.005238003639968631
+          "dated_total": 1677.95,
+          "share_of_dated_spending": 0.004219434428916237
         },
         {
           "day": "2026-08-27",
-          "transactions": 2,
-          "total": 19.91,
+          "transactions": 3,
+          "total": 73.22,
           "day_label": "Aug 27",
-          "dated_total": 1351.66,
-          "share_of_dated_spending": 0.014730035659855287
+          "dated_total": 1677.95,
+          "share_of_dated_spending": 0.043636580351023566
         },
         {
           "day": "2026-08-28",
-          "transactions": 0,
-          "total": 0,
+          "transactions": 1,
+          "total": 83.75,
           "day_label": "Aug 28",
-          "dated_total": 1351.66,
-          "share_of_dated_spending": 0
+          "dated_total": 1677.95,
+          "share_of_dated_spending": 0.049912095116064245
         },
         {
           "day": "2026-08-29",
           "transactions": 4,
           "total": 158.74,
           "day_label": "Aug 29",
-          "dated_total": 1351.66,
-          "share_of_dated_spending": 0.11744077652664131
+          "dated_total": 1677.95,
+          "share_of_dated_spending": 0.09460353407431688
         },
         {
           "day": "2026-08-30",
-          "transactions": 3,
-          "total": 86.58,
+          "transactions": 5,
+          "total": 186.31,
           "day_label": "Aug 30",
-          "dated_total": 1351.66,
-          "share_of_dated_spending": 0.06405456993622656
+          "dated_total": 1677.95,
+          "share_of_dated_spending": 0.11103429780386781
         }
       ],
       "fuel": [
@@ -1908,6 +1968,22 @@
           "gallons_label": "11.597 gal"
         },
         {
+          "merchant": "QuikTrip",
+          "city": "Independence",
+          "state": "MO",
+          "purchase_date": "2026-08-30",
+          "fuel_grade": null,
+          "fuel_gallons": 14.439,
+          "fuel_unit_price": null,
+          "fuel_amount": 62.8,
+          "effective_unit_price": 4.349331671168363,
+          "date_label": "Aug 30, 2026",
+          "location": "Independence, MO",
+          "grade_printed": "Not shown (pump photo)",
+          "price_label": "Not supplied",
+          "gallons_label": "14.439 gal"
+        },
+        {
           "merchant": "Casey's",
           "city": "West City",
           "state": "IL",
@@ -1922,6 +1998,22 @@
           "grade_printed": "93E10",
           "price_label": "$4.919",
           "gallons_label": "11.614 gal"
+        },
+        {
+          "merchant": "Pilot",
+          "city": "Oak Grove",
+          "state": "KY",
+          "purchase_date": "2026-08-30",
+          "fuel_grade": null,
+          "fuel_gallons": 8.03,
+          "fuel_unit_price": null,
+          "fuel_amount": 36.93,
+          "effective_unit_price": 4.5990037359900375,
+          "date_label": "Aug 30, 2026",
+          "location": "Oak Grove, KY",
+          "grade_printed": "Not shown (pump photo)",
+          "price_label": "Not supplied",
+          "gallons_label": "8.030 gal"
         }
       ],
       "fuel_grades": [
@@ -1933,46 +2025,46 @@
           "weighted_price": 4.667034682526963
         },
         {
+          "fuel_grade": "Unknown grade",
+          "purchases": 3,
+          "total": 149.73,
+          "gallons": 22.469,
+          "weighted_price": 4.4385597934932575
+        },
+        {
           "fuel_grade": "ULTIMATE",
           "purchases": 1,
           "total": 53.97,
           "gallons": 11.247,
           "weighted_price": 4.798612963456922
-        },
-        {
-          "fuel_grade": "Unknown grade",
-          "purchases": 1,
-          "total": 50,
-          "gallons": null,
-          "weighted_price": null
         }
       ],
       "food": [
         {
           "category": "restaurants",
-          "base_amount": 288.32,
+          "base_amount": 452.92,
           "allocated_tax": 20.24,
           "allocated_tip": 0,
-          "total": 308.56,
-          "transactions": 12,
+          "total": 473.16,
+          "transactions": 17,
           "rank": 2,
-          "share": 0.2054478024355978,
-          "included_total": 1501.89,
+          "share": 0.26004517650162406,
+          "included_total": 1819.53,
           "label": "Restaurants & prepared meals",
-          "food_share": 0.5736808835012829
+          "food_share": 0.6260634849226617
         },
         {
           "category": "groceries",
-          "base_amount": 158.64,
+          "base_amount": 211.95,
           "allocated_tax": 5.08,
           "allocated_tip": 0,
-          "total": 163.72,
-          "transactions": 5,
+          "total": 217.03,
+          "transactions": 6,
           "rank": 3,
-          "share": 0.10900931492985504,
-          "included_total": 1501.89,
+          "share": 0.11927805532197876,
+          "included_total": 1819.53,
           "label": "Groceries",
-          "food_share": 0.3043914773361098
+          "food_share": 0.2871640843113646
         },
         {
           "category": "snacks_drinks",
@@ -1982,16 +2074,16 @@
           "total": 65.58,
           "transactions": 9,
           "rank": 4,
-          "share": 0.04366498212252561,
-          "included_total": 1501.89,
+          "share": 0.036042274653344544,
+          "included_total": 1819.53,
           "label": "Convenience snacks & drinks",
-          "food_share": 0.12192763916260736
+          "food_share": 0.08677243076597377
         }
       ],
       "food_summary": [
         {
-          "total": 537.86,
-          "share": 0.35812209948797846
+          "total": 755.77,
+          "share": 0.41536550647694737
         }
       ]
     }
@@ -2023,7 +2115,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2045,7 +2137,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2067,7 +2159,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2089,7 +2181,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2111,7 +2203,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2133,7 +2225,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2155,7 +2247,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2177,7 +2269,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2199,7 +2291,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2221,7 +2313,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2243,7 +2335,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2265,7 +2357,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",
@@ -2287,7 +2379,7 @@
         ],
         "metric_definitions": [
           "Money is USD. Charged purchase totals are counted once; category amounts include allocated tax and tip where supported.",
-          "Fuel quantities and posted unit prices retain three-decimal precision. Weighted effective fuel price uses only charges and gallons from fully quantified purchases. A fuel amount without supplied volume or unit price counts toward spending, not price averages."
+          "Fuel quantities and posted unit prices retain three-decimal precision. Effective price uses known positive volume and its paid charges; posted-price statistics use only known posted prices. Unknown-volume fuel counts toward spending, not price averages."
         ],
         "engine": "DuckDB",
         "language": "sql",

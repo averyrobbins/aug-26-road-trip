@@ -2,6 +2,7 @@
 
 Status: **owner approved public publication on September 7, 2026**.
 That approval covers the reviewed draft; future changes require review.
+The owner approved uploading the v3 refresh on September 8, 2026.
 This checklist is not a privacy guarantee.
 The entire public Git repository—not just what appears on the page—will be
 downloadable. JavaScript data is visible to anyone who can open the site.
@@ -13,6 +14,8 @@ downloadable. JavaScript data is visible to anyone who can open the site.
 - Category, food, merchant, daily, and fuel summaries; fuel grades and prices.
 - Uncertainty and coverage amounts, including undated and manually added spending.
 - The reviewed v2 user-confirmed total correction, its original amount, and its fuel allocation; missing fuel quantity and price remain unknown.
+- Eight additional payments from ten phone images; two supporting observations are not counted twice. Bank transaction dates and approximate pump capture dates are retained as calendar dates, not clock times.
+- DoorDash / Kneaders is assigned to Utah by owner confirmation, with no city or point location. Pump-photo coordinates are rounded before export; no EXIF metadata is copied.
 
 This can reveal travel patterns and purchasing habits. It is **not anonymous**.
 Locations are rounded to two decimal places (roughly one kilometer), but a

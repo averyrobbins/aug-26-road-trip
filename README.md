@@ -6,6 +6,11 @@ scripts, and geographic outlines are local to this repository.
 
 ## Public site
 
+The **v3 update**, approved for publication September 8, 2026, includes eight
+new payments (+$317.64), for $1,819.53 in recorded spending. DoorDash is assigned
+to Utah. The live revision is served from the latest successful main-branch
+GitHub Pages deployment.
+
 [Open the report and trip map](https://averyrobbins.github.io/aug-26-road-trip/).
 
 Repository: `averyrobbins/aug-26-road-trip`. The owner approved the reviewed
