@@ -6,7 +6,7 @@
   const n = value => value === null || value === undefined || value === "" ? null : Number(value);
   const money = value => n(value) === null || !Number.isFinite(n(value)) ? "Not known" : n(value).toLocaleString("en-US", {style: "currency", currency: "USD"});
   const fixed = (value, digits = 3) => n(value) === null || !Number.isFinite(n(value)) ? "Not known" : n(value).toLocaleString("en-US", {minimumFractionDigits: digits, maximumFractionDigits: digits});
-  const categoryLabels = {snacks_drinks: "Convenience snacks", household_supplies: "Household supplies"};
+  const categoryLabels = {snacks_drinks: "Convenience snacks", household_supplies: "Household supplies", unallocated: "Unallocated correction"};
   const pretty = value => categoryLabels[value] || (value ? String(value).replaceAll("_", " ").replace(/^./, x => x.toUpperCase()) : "Unknown");
   const day = (value, long = false) => value ? new Date(`${value}T12:00:00`).toLocaleDateString("en-US", {month: long ? "long" : "short", day: "numeric", ...(long ? {year: "numeric"} : {})}) : "Date unknown";
   const element = (tag, text, className) => {const node = document.createElement(tag); if (text !== null && text !== undefined) node.textContent = text; if (className) node.className = className; return node;};
@@ -45,6 +45,12 @@
     $("coverage-note").textContent = coverage;
     $("method-coverage").textContent = `${coverage} ${excluded?.transactions ?? 0} outside-window receipts (${money(excluded?.total ?? 0)}) are excluded. ${manual?.transactions ?? 0} manual payments have no receipt images or itemization.`;
     const lodgingPresent = R.categories.some(row => ["lodging", "accommodation", "accommodations", "hotel", "hotels"].includes(String(row.category).toLowerCase()));
+    const overrides = purchases.filter(row => row.amount_is_user_override);
+    if (overrides.length) {
+      const delta = overrides.reduce((sum, row) => sum + n(row.unallocated_correction_amount), 0);
+      $("correction-note").hidden = false;
+      $("correction-note").textContent = `V2 includes ${money(delta)} in user-confirmed corrections. The Green River, Wyoming Maverik payment is recorded at $53.37 instead of the original $3.37. The extra $50.00 is unallocated; known food, tax, and fuel amounts are unchanged.`;
+    }
     $("method-evidence").textContent = "Receipt totals are counted once. Category tax splits are approximations, not separately printed category-level taxes. Unknown dates and prices stay unknown. " + (lodgingPresent ? "Available expenses are not proof that every trip cost is captured." : "The current categories contain no lodging evidence, so this should not be read as the entire cost of the trip.");
     table("category-table", sortedTotal(R.categories), [{key: "category", label: "Category", format: pretty}, amountColumn, {label: "Share", numeric: true, format: (_, row) => `${(n(row.total) / n(S.total) * 100).toFixed(1)}%`}]);
     table("food-table", sortedTotal(R.food), [{key: "category", label: "Food category", format: pretty}, amountColumn]);
@@ -128,7 +134,7 @@
       if (!visible.length) {list.append(element("p", "No purchases match these filters. Clear a filter to see more.", "empty-message")); return;}
       visible.forEach(row => {
         const card = element("button", null, "purchase-card"); card.type = "button"; card.dataset.purchase = row.id; card.classList.toggle("is-selected", selected === row.id); card.setAttribute("aria-pressed", String(selected === row.id));
-        append(card, append(element("span", null, "purchase-card-top"), element("span", row.merchant), element("span", money(row.total))), element("span", [row.city, row.state ? stateName(row.state) : null].filter(Boolean).join(", ") || "Location not supplied", "purchase-card-place"), element("span", `${day(row.purchase_date)} · ${pretty(row.primary_category)}${mapped(row) ? " · Approximate location" : " · Unmapped"}${row.amount_is_estimated ? " · Estimated" : ""}`, "purchase-card-meta"));
+        append(card, append(element("span", null, "purchase-card-top"), element("span", row.merchant), element("span", money(row.total))), element("span", [row.city, row.state ? stateName(row.state) : null].filter(Boolean).join(", ") || "Location not supplied", "purchase-card-place"), element("span", `${day(row.purchase_date)} · ${pretty(row.primary_category)}${mapped(row) ? " · Approximate location" : " · Unmapped"}${row.amount_is_estimated ? " · Estimated" : ""}${row.amount_is_user_override ? " · User-confirmed override" : ""}`, "purchase-card-meta"));
         card.addEventListener("click", () => select(row.id)); list.append(card);
       });
     }
@@ -145,6 +151,7 @@
         content.append(facts);
         if (row.is_manual) content.append(element("p", "User-reported payment. No receipt image or itemization was supplied.", "detail-warning"));
         if (row.amount_is_estimated) content.append(element("p", "This payment amount is an estimate.", "detail-warning"));
+        if (row.amount_is_user_override) content.append(element("p", `User-confirmed total override: ${money(row.original_extracted_total)} → ${money(row.total)}. The ${money(row.unallocated_correction_amount)} increase is unallocated, not a newly identified item or fuel purchase. Original itemization and tax still add to ${money(row.original_extracted_total)}.`, "detail-warning"));
         if (!row.purchase_date) content.append(element("p", "Complete purchase date unknown. It has not been assigned to a trip day.", "detail-warning"));
         const point = pointNodes.get(id); if (point) pointsGroup.append(point);
       }

@@ -4,7 +4,7 @@
     "version": 1,
     "surface": "report",
     "title": "August 2026 road trip spending",
-    "generatedAt": "2026-09-07",
+    "generatedAt": "2026-09-08",
     "blocks": [
       {
         "id": "title",
@@ -15,9 +15,16 @@
       {
         "id": "executive_summary",
         "type": "markdown",
-        "body": "## Executive Summary\n\n- **The supplied trip spending totals $1,451.89.** This includes $1,301.66 on fully dated trip receipts, $75.23 on provisionally included undated receipts, and $75.00 you reported separately. The miscellaneous $25.00 is estimated. Two July receipts totaling $134.42 are excluded.\n- **Fuel is the largest expense: $840.23, or 57.9% of the included total.** The 16 fill-ups purchased 179.718 gallons at a gallon-weighted effective price of $4.675 per gallon. Food and drinks account for another $537.76.\n- **Utah has the most recorded spending, at $506.03.** Among fully dated receipts, Aug 17, 2026 is the highest-spending day: $246.14 across 7 purchases. The undated and manual payments cannot be assigned to a day.\n\nThis is the total supported by the supplied receipts and additions, not a verified complete cost of the family trip. No lodging payments or mileage records were provided.",
+        "body": "## Executive Summary\n\n- **The supplied trip spending totals $1,501.89.** This includes $1,351.66 on fully dated trip receipts, $75.23 on provisionally included undated receipts, and $75.00 you reported separately. The miscellaneous $25.00 is estimated. Two July receipts totaling $134.42 are excluded.\n- **Fuel is the largest expense: $840.23, or 55.9% of the included total.** The 16 fill-ups purchased 179.718 gallons at a gallon-weighted effective price of $4.675 per gallon. Food and drinks account for another $537.76.\n- **Utah has the most recorded spending, at $506.03.** Among fully dated receipts, Aug 17, 2026 is the highest-spending day: $296.14 across 7 purchases. The undated and manual payments cannot be assigned to a day.\n\nThis total includes the user-confirmed v2 override alongside supplied receipts and additions; it is not a verified complete cost of the family trip. No lodging payments or mileage records were provided.",
         "layout": "full",
         "sourceId": "public_report_data"
+      },
+      {
+        "id": "v2_correction",
+        "type": "markdown",
+        "layout": "full",
+        "sourceId": "public_report_data",
+        "body": "## V2 correction adds $50.00 to recorded spending\n\nThe August 17 Maverik purchase in Green River, Wyoming is recorded as **$53.37**, replacing $3.37, following your explicit confirmation. The original printed itemization still reconciles to $3.37 ($3.18 plus $0.19 tax); $53.37 is a **user-confirmed override**, not a newly verified printed amount.\n\nThe additional **$50.00 remains unallocated** because its purchase category is unknown. The known $3.37 convenience-drink allocation, printed tax, and all fuel data are unchanged. This replaces one receipt total and does not add another payment."
       },
       {
         "id": "headline_metrics",
@@ -44,7 +51,7 @@
       {
         "id": "category_findings",
         "type": "markdown",
-        "body": "## Fuel accounts for 57.9% of supplied spending\n\n**Fuel leads at $840.23; restaurants and prepared meals follow at $308.56.** Read the bars as all-in spending by what was purchased, rather than by the kind of store. Prepared Maverik meals count as restaurants; gas remains fuel; nonfood Walmart items keep their own categories.\n\nDiscounts reduce the related category. Receipt taxes are allocated across item categories where necessary, so mixed-receipt category totals are estimates at the category level even though they reconcile exactly to the charged receipt. Fuel tax is generally embedded in the pump price, not an additional amount. The small $0.10 household-supplies amount is a separately preserved bag fee.",
+        "body": "## Fuel accounts for 55.9% of supplied spending\n\n**Fuel leads at $840.23; restaurants and prepared meals follow at $308.56.** Read the bars as all-in spending by what was purchased, rather than by the kind of store. Prepared Maverik meals count as restaurants; gas remains fuel; nonfood Walmart items keep their own categories.\n\nDiscounts reduce the related category. Receipt taxes are allocated across item categories where necessary, so mixed-receipt category totals are estimates at the category level even though they reconcile exactly to the charged receipt. Fuel tax is generally embedded in the pump price, not an additional amount. The small $0.10 household-supplies amount is a separately preserved bag fee.\n\nThe $50.00 unallocated correction has no inferred item or category. The previously captured $0.19 tax remains with its known convenience-drink item; it is not redistributed over the override.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -69,7 +76,7 @@
       {
         "id": "food_findings",
         "type": "markdown",
-        "body": "## Restaurants cost about 1.9 times the grocery spending\n\n**Food and drinks total $537.76, or 37.0% of included spending.** Restaurant and prepared-meal purchases total $308.56, including the $50 Utah steakhouse payment. Groceries total $163.62; convenience snacks and drinks add $65.58.\n\nThe grocery category includes food and drinks bought at grocery stores and Walmart; convenience snacks/drinks describes those purchases at travel stops and similar outlets. This distinction is useful for planning the next trip, but it does not establish when the food was eaten. No separate steakhouse tax, tip, menu items or purchase date were supplied, so the reported $50 is counted as one all-in payment.",
+        "body": "## Restaurants cost about 1.9 times the grocery spending\n\n**Food and drinks total $537.76, or 35.8% of included spending.** Restaurant and prepared-meal purchases total $308.56, including the $50 Utah steakhouse payment. Groceries total $163.62; convenience snacks and drinks add $65.58.\n\nThe grocery category includes food and drinks bought at grocery stores and Walmart; convenience snacks/drinks describes those purchases at travel stops and similar outlets. This distinction is useful for planning the next trip, but it does not establish when the food was eaten. No separate steakhouse tax, tip, menu items or purchase date were supplied, so the reported $50 is counted as one all-in payment.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -82,7 +89,7 @@
       {
         "id": "state_findings",
         "type": "markdown",
-        "body": "## Utah and Colorado account for 57.9% of spending\n\n**Utah leads with $506.03, followed by Colorado at $334.83.** These figures include provisionally undated receipts wherever the purchase location is known. Utah also includes the reported $50 steakhouse payment; the $25 miscellaneous estimate remains in the unknown-state group.\n\nThe receipts document purchases in Wyoming, Missouri, Illinois and Kentucky as well as the states described in the itinerary. Tennessee has no included, dated trip purchase in the supplied batch. Missing Tennessee spending should not be read as evidence that nothing was spent there.",
+        "body": "## Utah and Colorado account for 56.0% of spending\n\n**Utah leads with $506.03, followed by Colorado at $334.83.** These figures include provisionally undated receipts wherever the purchase location is known. Utah also includes the reported $50 steakhouse payment; the $25 miscellaneous estimate remains in the unknown-state group.\n\nThe receipts document purchases in Wyoming, Missouri, Illinois and Kentucky as well as the states described in the itinerary. Tennessee has no included, dated trip purchase in the supplied batch. Missing Tennessee spending should not be read as evidence that nothing was spent there.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -95,7 +102,7 @@
       {
         "id": "merchant_findings",
         "type": "markdown",
-        "body": "## Smith's and Maverik lead the merchant totals\n\n**Smith's totals $178.53, followed by Maverik at $175.16.** The ranked chart shows the eight largest merchants; the table retains every included merchant, so smaller stops are not lost.\n\nCostco totals **$137.53**, versus **$83.28 at Walmart**. Every included Costco dollar is fuel, so this is not a comparison of grocery prices. The two July purchases are excluded from these comparisons; their individual details are withheld. Merchant aliases verified as the same business are grouped; fuel and food at the same stop remain separate transactions.",
+        "body": "## Maverik and Smith's lead the merchant totals\n\n**Maverik totals $225.16, followed by Smith's at $178.53.** The ranked chart shows the eight largest merchants; the table retains every included merchant, so smaller stops are not lost.\n\nCostco totals **$137.53**, versus **$83.28 at Walmart**. Every included Costco dollar is fuel, so this is not a comparison of grocery prices. The two July purchases are excluded from these comparisons; their individual details are withheld. Merchant aliases verified as the same business are grouped; fuel and food at the same stop remain separate transactions.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -133,7 +140,7 @@
       {
         "id": "daily_findings",
         "type": "markdown",
-        "body": "## Aug 17 is the highest-spending dated day\n\n**The highest fully dated daily total is $246.14, from 7 purchases on Aug 17, 2026.** The chart shows every day of the trip, using the local date printed on each receipt. This helps distinguish travel-day purchase clusters from days with fewer supplied receipts; it does not measure time spent in each state.\n\nThe bars sum to $1,301.66, not the full $1,451.89 report total. Another **$150.23 has no complete assigned date**: $75.23 of receipt spending plus $75.00 of manual additions. A zero bar means no supplied dated receipt for that day, not verified zero spending. Undated purchases could change the highest-day result.",
+        "body": "## Aug 17 is the highest-spending dated day\n\n**The highest fully dated daily total is $296.14, from 7 purchases on Aug 17, 2026.** The chart shows every day of the trip, using the local date printed on each receipt. This helps distinguish travel-day purchase clusters from days with fewer supplied receipts; it does not measure time spent in each state.\n\nThe bars sum to $1,351.66, not the full $1,501.89 report total. Another **$150.23 has no complete assigned date**: $75.23 of receipt spending plus $75.00 of manual additions. A zero bar means no supplied dated receipt for that day, not verified zero spending. Undated purchases could change the highest-day result.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -146,7 +153,7 @@
       {
         "id": "coverage_findings",
         "type": "markdown",
-        "body": "## Dates and missing expenses are the next useful checks\n\n**The most useful follow-up is to date the $150.23 currently outside the daily chart and confirm whether either July purchase was trip preparation.** The six undated payments remain in aggregate spending but are not individually listed in this public report. Missing dates are left unknown rather than guessed.\n\nRestaurant tips, lodging, online bookings, mileage and any other purchases absent from the supplied material are not recoverable from these receipts. No separately printed tip has been added, and missing tip/tax fields do not prove that a charge was absent. Mixed-category tax splits are approximate. Where an item amount is unreadable, a readable receipt subtotal can support category allocation without inventing a per-item price.\n\nTo refine the analysis, add any missing lodging or other payments, give dates for the manual additions if known, and confirm the undated receipts. The original totals remain intact while unresolved details stay visible.",
+        "body": "## Dates and missing expenses are the next useful checks\n\n**The most useful follow-up is to date the $150.23 currently outside the daily chart and confirm whether either July purchase was trip preparation.** The six undated payments remain in aggregate spending but are not individually listed in this public report. Missing dates are left unknown rather than guessed.\n\nRestaurant tips, lodging, online bookings, mileage and any other purchases absent from the supplied material are not recoverable from these receipts. No separately printed tip has been added, and missing tip/tax fields do not prove that a charge was absent. Mixed-category tax splits are approximate. Where an item amount is unreadable, a readable receipt subtotal can support category allocation without inventing a per-item price.\n\nTo refine the analysis, add any missing lodging or other payments, give dates for the manual additions if known, and confirm the undated receipts. The frozen v1 totals remain intact; this v2 report separately applies the documented user-confirmed override, with its $50.00 category gap left visible.",
         "layout": "full",
         "sourceId": "public_report_data"
       },
@@ -924,15 +931,15 @@
   },
   "snapshot": {
     "version": 1,
-    "generatedAt": "2026-09-07",
+    "generatedAt": "2026-09-08",
     "status": "ready",
     "datasets": {
       "summary": [
         {
           "transactions": 45,
-          "total": 1451.89,
-          "receipt_total": 1376.89,
-          "dated_receipt_total": 1301.66,
+          "total": 1501.89,
+          "receipt_total": 1426.89,
+          "dated_receipt_total": 1351.66,
           "undated_receipt_total": 75.23,
           "manual_total": 75,
           "estimated_total": 25,
@@ -960,7 +967,7 @@
           "scope": "dated_trip",
           "transactions": 39,
           "known_totals": 39,
-          "total": 1301.66,
+          "total": 1351.66,
           "label": "Dated trip receipts",
           "treatment": "Included"
         },
@@ -998,8 +1005,8 @@
           "total": 840.23,
           "transactions": 16,
           "rank": 1,
-          "share": 0.5787146409163229,
-          "included_total": 1451.89,
+          "share": 0.5594484283136582,
+          "included_total": 1501.89,
           "label": "Fuel"
         },
         {
@@ -1010,8 +1017,8 @@
           "total": 308.56,
           "transactions": 12,
           "rank": 2,
-          "share": 0.21252298727865057,
-          "included_total": 1451.89,
+          "share": 0.2054478024355978,
+          "included_total": 1501.89,
           "label": "Restaurants & prepared meals"
         },
         {
@@ -1022,8 +1029,8 @@
           "total": 163.62,
           "transactions": 5,
           "rank": 3,
-          "share": 0.11269448787442575,
-          "included_total": 1451.89,
+          "share": 0.10894273215748157,
+          "included_total": 1501.89,
           "label": "Groceries"
         },
         {
@@ -1034,9 +1041,21 @@
           "total": 65.58,
           "transactions": 9,
           "rank": 4,
-          "share": 0.04516871112825351,
-          "included_total": 1451.89,
+          "share": 0.04366498212252561,
+          "included_total": 1501.89,
           "label": "Convenience snacks & drinks"
+        },
+        {
+          "category": "unallocated",
+          "base_amount": 50,
+          "allocated_tax": 0,
+          "allocated_tip": 0,
+          "total": 50,
+          "transactions": 1,
+          "rank": 5,
+          "share": 0.03329138618673804,
+          "included_total": 1501.89,
+          "label": "Unallocated correction"
         },
         {
           "category": "personal_care",
@@ -1045,9 +1064,9 @@
           "allocated_tip": 0,
           "total": 28.8,
           "transactions": 2,
-          "rank": 5,
-          "share": 0.019836213487247657,
-          "included_total": 1451.89,
+          "rank": 6,
+          "share": 0.019175838443561112,
+          "included_total": 1501.89,
           "label": "Personal care"
         },
         {
@@ -1057,9 +1076,9 @@
           "allocated_tip": 0,
           "total": 25,
           "transactions": 1,
-          "rank": 6,
-          "share": 0.017218935318791366,
-          "included_total": 1451.89,
+          "rank": 7,
+          "share": 0.01664569309336902,
+          "included_total": 1501.89,
           "label": "Miscellaneous"
         },
         {
@@ -1069,9 +1088,9 @@
           "allocated_tip": 0,
           "total": 20,
           "transactions": 2,
-          "rank": 7,
-          "share": 0.013775148255033095,
-          "included_total": 1451.89,
+          "rank": 8,
+          "share": 0.013316554474695217,
+          "included_total": 1501.89,
           "label": "Recreation"
         },
         {
@@ -1081,9 +1100,9 @@
           "allocated_tip": 0,
           "total": 0.1,
           "transactions": 1,
-          "rank": 8,
-          "share": 6.887574127516547e-05,
-          "included_total": 1451.89,
+          "rank": 9,
+          "share": 6.658277237347608e-05,
+          "included_total": 1501.89,
           "label": "Household supplies"
         }
       ],
@@ -1094,8 +1113,8 @@
           "total": 506.03,
           "manual_amount": 50,
           "rank": 1,
-          "share": 0.3485319135747198,
-          "included_total": 1451.89,
+          "share": 0.336928803041501,
+          "included_total": 1501.89,
           "label": "Utah"
         },
         {
@@ -1104,8 +1123,8 @@
           "total": 334.83,
           "manual_amount": 0,
           "rank": 2,
-          "share": 0.23061664451163652,
-          "included_total": 1451.89,
+          "share": 0.22293909673810997,
+          "included_total": 1501.89,
           "label": "Colorado"
         },
         {
@@ -1114,18 +1133,18 @@
           "total": 226.29,
           "manual_amount": 0,
           "rank": 3,
-          "share": 0.15585891493157195,
-          "included_total": 1451.89,
+          "share": 0.150670155603939,
+          "included_total": 1501.89,
           "label": "Kansas"
         },
         {
           "state": "WY",
           "transactions": 5,
-          "total": 120.25,
+          "total": 170.25,
           "manual_amount": 0,
           "rank": 4,
-          "share": 0.08282307888338648,
-          "included_total": 1451.89,
+          "share": 0.11335716996584302,
+          "included_total": 1501.89,
           "label": "Wyoming"
         },
         {
@@ -1134,8 +1153,8 @@
           "total": 102.57,
           "manual_amount": 0,
           "rank": 5,
-          "share": 0.07064584782593722,
-          "included_total": 1451.89,
+          "share": 0.06829394962347442,
+          "included_total": 1501.89,
           "label": "Missouri"
         },
         {
@@ -1144,8 +1163,8 @@
           "total": 75.02,
           "manual_amount": 0,
           "rank": 6,
-          "share": 0.05167058110462913,
-          "included_total": 1451.89,
+          "share": 0.04995039583458175,
+          "included_total": 1501.89,
           "label": "Illinois"
         },
         {
@@ -1154,8 +1173,8 @@
           "total": 61.9,
           "manual_amount": 0,
           "rank": 7,
-          "share": 0.042634083849327424,
-          "included_total": 1451.89,
+          "share": 0.04121473609918169,
+          "included_total": 1501.89,
           "label": "Kentucky"
         },
         {
@@ -1164,31 +1183,31 @@
           "total": 25,
           "manual_amount": 25,
           "rank": 8,
-          "share": 0.017218935318791366,
-          "included_total": 1451.89,
+          "share": 0.01664569309336902,
+          "included_total": 1501.89,
           "label": "Unknown state"
         }
       ],
       "merchants": [
         {
+          "merchant": "Maverik",
+          "transactions": 5,
+          "total": 225.16,
+          "fuel_amount": 146.29,
+          "rank": 1,
+          "share": 0.14991777027611874,
+          "included_total": 1501.89,
+          "label": "Maverik"
+        },
+        {
           "merchant": "Smith's",
           "transactions": 2,
           "total": 178.53,
           "fuel_amount": 90.45,
-          "rank": 1,
-          "share": 0.1229638608985529,
-          "included_total": 1451.89,
-          "label": "Smith's"
-        },
-        {
-          "merchant": "Maverik",
-          "transactions": 5,
-          "total": 175.16,
-          "fuel_amount": 146.29,
           "rank": 2,
-          "share": 0.12064274841757984,
-          "included_total": 1451.89,
-          "label": "Maverik"
+          "share": 0.11887022351836685,
+          "included_total": 1501.89,
+          "label": "Smith's"
         },
         {
           "merchant": "Costco",
@@ -1196,8 +1215,8 @@
           "total": 137.53,
           "fuel_amount": 137.53,
           "rank": 3,
-          "share": 0.09472480697573507,
-          "included_total": 1451.89,
+          "share": 0.09157128684524166,
+          "included_total": 1501.89,
           "label": "Costco"
         },
         {
@@ -1206,8 +1225,8 @@
           "total": 86.5,
           "fuel_amount": 83.28,
           "rank": 4,
-          "share": 0.059577516203018134,
-          "included_total": 1451.89,
+          "share": 0.05759409810305681,
+          "included_total": 1501.89,
           "label": "D&S Convenience"
         },
         {
@@ -1216,8 +1235,8 @@
           "total": 83.28,
           "fuel_amount": 0,
           "rank": 5,
-          "share": 0.0573597173339578,
-          "included_total": 1451.89,
+          "share": 0.05545013283263088,
+          "included_total": 1501.89,
           "label": "Walmart"
         },
         {
@@ -1226,8 +1245,8 @@
           "total": 81.05,
           "fuel_amount": 75.61,
           "rank": 6,
-          "share": 0.05582378830352161,
-          "included_total": 1451.89,
+          "share": 0.05396533700870236,
+          "included_total": 1501.89,
           "label": "Midway Travel Plaza"
         },
         {
@@ -1236,8 +1255,8 @@
           "total": 64.82,
           "fuel_amount": 51.6,
           "rank": 7,
-          "share": 0.044645255494562254,
-          "included_total": 1451.89,
+          "share": 0.043158953052487195,
+          "included_total": 1501.89,
           "label": "Shell"
         },
         {
@@ -1246,8 +1265,8 @@
           "total": 63.44,
           "fuel_amount": 0,
           "rank": 8,
-          "share": 0.043694770264964974,
-          "included_total": 1451.89,
+          "share": 0.04224011079373322,
+          "included_total": 1501.89,
           "label": "McDonald's"
         },
         {
@@ -1256,8 +1275,8 @@
           "total": 57.13,
           "fuel_amount": 57.13,
           "rank": 9,
-          "share": 0.03934871099050204,
-          "included_total": 1451.89,
+          "share": 0.03803873785696689,
+          "included_total": 1501.89,
           "label": "Casey's"
         },
         {
@@ -1266,8 +1285,8 @@
           "total": 53.97,
           "fuel_amount": 53.97,
           "rank": 10,
-          "share": 0.0371722375662068,
-          "included_total": 1451.89,
+          "share": 0.035934722249965044,
+          "included_total": 1501.89,
           "label": "BP / Max's"
         },
         {
@@ -1276,8 +1295,8 @@
           "total": 50.94,
           "fuel_amount": 40.21,
           "rank": 11,
-          "share": 0.03508530260556929,
-          "included_total": 1451.89,
+          "share": 0.03391726424704872,
+          "included_total": 1501.89,
           "label": "24/7 Travel Store"
         },
         {
@@ -1286,8 +1305,8 @@
           "total": 50,
           "fuel_amount": 0,
           "rank": 12,
-          "share": 0.03443787063758273,
-          "included_total": 1451.89,
+          "share": 0.03329138618673804,
+          "included_total": 1501.89,
           "label": "Unspecified steakhouse"
         },
         {
@@ -1296,8 +1315,8 @@
           "total": 48.05,
           "fuel_amount": 0,
           "rank": 13,
-          "share": 0.033094793682717005,
-          "included_total": 1451.89,
+          "share": 0.03199302212545525,
+          "included_total": 1501.89,
           "label": "Costa Vida"
         },
         {
@@ -1306,8 +1325,8 @@
           "total": 43.81,
           "fuel_amount": 40.17,
           "rank": 14,
-          "share": 0.030174462252649994,
-          "included_total": 1451.89,
+          "share": 0.029169912576819872,
+          "included_total": 1501.89,
           "label": "Tumbleweed Express"
         },
         {
@@ -1316,8 +1335,8 @@
           "total": 40.62,
           "fuel_amount": 26.18,
           "rank": 15,
-          "share": 0.02797732610597221,
-          "included_total": 1451.89,
+          "share": 0.02704592213810598,
+          "included_total": 1501.89,
           "label": "Seibert Travel Stop"
         },
         {
@@ -1326,8 +1345,8 @@
           "total": 38.46,
           "fuel_amount": 0,
           "rank": 16,
-          "share": 0.02648961009442864,
-          "included_total": 1451.89,
+          "share": 0.025607734254838904,
+          "included_total": 1501.89,
           "label": "Iceberg Drive Inn"
         },
         {
@@ -1336,8 +1355,8 @@
           "total": 37.81,
           "fuel_amount": 37.81,
           "rank": 17,
-          "share": 0.026041917776140067,
-          "included_total": 1451.89,
+          "share": 0.02517494623441131,
+          "included_total": 1501.89,
           "label": "Jeremy Store"
         },
         {
@@ -1346,8 +1365,8 @@
           "total": 30.98,
           "fuel_amount": 0,
           "rank": 18,
-          "share": 0.021337704647046263,
-          "included_total": 1451.89,
+          "share": 0.02062734288130289,
+          "included_total": 1501.89,
           "label": "Cafe Zupas"
         },
         {
@@ -1356,8 +1375,8 @@
           "total": 25,
           "fuel_amount": 0,
           "rank": 19,
-          "share": 0.017218935318791366,
-          "included_total": 1451.89,
+          "share": 0.01664569309336902,
+          "included_total": 1501.89,
           "label": "Unspecified miscellaneous expense"
         },
         {
@@ -1366,8 +1385,8 @@
           "total": 21.79,
           "fuel_amount": 0,
           "rank": 20,
-          "share": 0.015008024023858556,
-          "included_total": 1451.89,
+          "share": 0.014508386100180438,
+          "included_total": 1501.89,
           "label": "Subway"
         },
         {
@@ -1376,8 +1395,8 @@
           "total": 21.69,
           "fuel_amount": 0,
           "rank": 21,
-          "share": 0.014939148282583392,
-          "included_total": 1451.89,
+          "share": 0.014441803327806963,
+          "included_total": 1501.89,
           "label": "In-N-Out Burger"
         },
         {
@@ -1386,8 +1405,8 @@
           "total": 21.16,
           "fuel_amount": 0,
           "rank": 22,
-          "share": 0.014574106853825014,
-          "included_total": 1451.89,
+          "share": 0.01408891463422754,
+          "included_total": 1501.89,
           "label": "King Soopers"
         },
         {
@@ -1396,8 +1415,8 @@
           "total": 20,
           "fuel_amount": 0,
           "rank": 23,
-          "share": 0.013775148255033095,
-          "included_total": 1451.89,
+          "share": 0.013316554474695217,
+          "included_total": 1501.89,
           "label": "Castlewood State Park"
         },
         {
@@ -1406,8 +1425,8 @@
           "total": 8.65,
           "fuel_amount": 0,
           "rank": 24,
-          "share": 0.005957751620301813,
-          "included_total": 1451.89,
+          "share": 0.005759409810305681,
+          "included_total": 1501.89,
           "label": "The Creamery Grill"
         },
         {
@@ -1416,8 +1435,8 @@
           "total": 7.93,
           "fuel_amount": 0,
           "rank": 25,
-          "share": 0.005461846283120622,
-          "included_total": 1451.89,
+          "share": 0.005280013849216653,
+          "included_total": 1501.89,
           "label": "Pilot"
         },
         {
@@ -1426,31 +1445,31 @@
           "total": 3.59,
           "fuel_amount": 0,
           "rank": 26,
-          "share": 0.0024726391117784402,
-          "included_total": 1451.89,
+          "share": 0.0023903215282077912,
+          "included_total": 1501.89,
           "label": "BYU Creamery on 9th East"
         }
       ],
       "merchants_top8": [
         {
+          "merchant": "Maverik",
+          "transactions": 5,
+          "total": 225.16,
+          "fuel_amount": 146.29,
+          "rank": 1,
+          "share": 0.14991777027611874,
+          "included_total": 1501.89,
+          "label": "Maverik"
+        },
+        {
           "merchant": "Smith's",
           "transactions": 2,
           "total": 178.53,
           "fuel_amount": 90.45,
-          "rank": 1,
-          "share": 0.1229638608985529,
-          "included_total": 1451.89,
-          "label": "Smith's"
-        },
-        {
-          "merchant": "Maverik",
-          "transactions": 5,
-          "total": 175.16,
-          "fuel_amount": 146.29,
           "rank": 2,
-          "share": 0.12064274841757984,
-          "included_total": 1451.89,
-          "label": "Maverik"
+          "share": 0.11887022351836685,
+          "included_total": 1501.89,
+          "label": "Smith's"
         },
         {
           "merchant": "Costco",
@@ -1458,8 +1477,8 @@
           "total": 137.53,
           "fuel_amount": 137.53,
           "rank": 3,
-          "share": 0.09472480697573507,
-          "included_total": 1451.89,
+          "share": 0.09157128684524166,
+          "included_total": 1501.89,
           "label": "Costco"
         },
         {
@@ -1468,8 +1487,8 @@
           "total": 86.5,
           "fuel_amount": 83.28,
           "rank": 4,
-          "share": 0.059577516203018134,
-          "included_total": 1451.89,
+          "share": 0.05759409810305681,
+          "included_total": 1501.89,
           "label": "D&S Convenience"
         },
         {
@@ -1478,8 +1497,8 @@
           "total": 83.28,
           "fuel_amount": 0,
           "rank": 5,
-          "share": 0.0573597173339578,
-          "included_total": 1451.89,
+          "share": 0.05545013283263088,
+          "included_total": 1501.89,
           "label": "Walmart"
         },
         {
@@ -1488,8 +1507,8 @@
           "total": 81.05,
           "fuel_amount": 75.61,
           "rank": 6,
-          "share": 0.05582378830352161,
-          "included_total": 1451.89,
+          "share": 0.05396533700870236,
+          "included_total": 1501.89,
           "label": "Midway Travel Plaza"
         },
         {
@@ -1498,8 +1517,8 @@
           "total": 64.82,
           "fuel_amount": 51.6,
           "rank": 7,
-          "share": 0.044645255494562254,
-          "included_total": 1451.89,
+          "share": 0.043158953052487195,
+          "included_total": 1501.89,
           "label": "Shell"
         },
         {
@@ -1508,8 +1527,8 @@
           "total": 63.44,
           "fuel_amount": 0,
           "rank": 8,
-          "share": 0.043694770264964974,
-          "included_total": 1451.89,
+          "share": 0.04224011079373322,
+          "included_total": 1501.89,
           "label": "McDonald's"
         }
       ],
@@ -1519,119 +1538,119 @@
           "transactions": 4,
           "total": 152.91,
           "day_label": "Aug 14",
-          "dated_total": 1301.66,
-          "share_of_dated_spending": 0.1174730728454435
+          "dated_total": 1351.66,
+          "share_of_dated_spending": 0.11312756166491572
         },
         {
           "day": "2026-08-15",
           "transactions": 6,
           "total": 208.12,
           "day_label": "Aug 15",
-          "dated_total": 1301.66,
-          "share_of_dated_spending": 0.15988814283299785
+          "dated_total": 1351.66,
+          "share_of_dated_spending": 0.15397363242235473
         },
         {
           "day": "2026-08-16",
           "transactions": 0,
           "total": 0,
           "day_label": "Aug 16",
-          "dated_total": 1301.66,
+          "dated_total": 1351.66,
           "share_of_dated_spending": 0
         },
         {
           "day": "2026-08-17",
           "transactions": 7,
-          "total": 246.14,
+          "total": 296.14,
           "day_label": "Aug 17",
-          "dated_total": 1301.66,
-          "share_of_dated_spending": 0.1890969992163852
+          "dated_total": 1351.66,
+          "share_of_dated_spending": 0.21909355903111727
         },
         {
           "day": "2026-08-18",
           "transactions": 1,
           "total": 48.05,
           "day_label": "Aug 18",
-          "dated_total": 1301.66,
-          "share_of_dated_spending": 0.03691440161025152
+          "dated_total": 1351.66,
+          "share_of_dated_spending": 0.03554888063566281
         },
         {
           "day": "2026-08-19",
           "transactions": 1,
           "total": 21.69,
           "day_label": "Aug 19",
-          "dated_total": 1301.66,
-          "share_of_dated_spending": 0.016663337584315412
+          "dated_total": 1351.66,
+          "share_of_dated_spending": 0.01604693488007339
         },
         {
           "day": "2026-08-20",
           "transactions": 1,
           "total": 3.59,
           "day_label": "Aug 20",
-          "dated_total": 1301.66,
-          "share_of_dated_spending": 0.002758016686385077
+          "dated_total": 1351.66,
+          "share_of_dated_spending": 0.0026559933711140372
         },
         {
           "day": "2026-08-21",
           "transactions": 3,
           "total": 128.91,
           "day_label": "Aug 21",
-          "dated_total": 1301.66,
-          "share_of_dated_spending": 0.0990350782846519
+          "dated_total": 1351.66,
+          "share_of_dated_spending": 0.09537161712264917
         },
         {
           "day": "2026-08-22",
           "transactions": 1,
           "total": 23.14,
           "day_label": "Aug 22",
-          "dated_total": 1301.66,
-          "share_of_dated_spending": 0.01777729975569657
+          "dated_total": 1351.66,
+          "share_of_dated_spending": 0.017119689862835328
         },
         {
           "day": "2026-08-23",
           "transactions": 3,
           "total": 120.51,
           "day_label": "Aug 23",
-          "dated_total": 1301.66,
-          "share_of_dated_spending": 0.09258178018837485
+          "dated_total": 1351.66,
+          "share_of_dated_spending": 0.0891570365328559
         },
         {
           "day": "2026-08-24",
           "transactions": 1,
           "total": 66.29,
           "day_label": "Aug 24",
-          "dated_total": 1301.66,
-          "share_of_dated_spending": 0.05092727747645315
+          "dated_total": 1351.66,
+          "share_of_dated_spending": 0.04904339848778539
         },
         {
           "day": "2026-08-25",
           "transactions": 1,
           "total": 10,
           "day_label": "Aug 25",
-          "dated_total": 1301.66,
-          "share_of_dated_spending": 0.007682497733663168
+          "dated_total": 1351.66,
+          "share_of_dated_spending": 0.007398310225944394
         },
         {
           "day": "2026-08-26",
           "transactions": 1,
           "total": 7.08,
           "day_label": "Aug 26",
-          "dated_total": 1301.66,
-          "share_of_dated_spending": 0.005439208395433523
+          "dated_total": 1351.66,
+          "share_of_dated_spending": 0.005238003639968631
         },
         {
           "day": "2026-08-27",
           "transactions": 2,
           "total": 19.91,
           "day_label": "Aug 27",
-          "dated_total": 1301.66,
-          "share_of_dated_spending": 0.015295852987723367
+          "dated_total": 1351.66,
+          "share_of_dated_spending": 0.014730035659855287
         },
         {
           "day": "2026-08-28",
           "transactions": 0,
           "total": 0,
           "day_label": "Aug 28",
-          "dated_total": 1301.66,
+          "dated_total": 1351.66,
           "share_of_dated_spending": 0
         },
         {
@@ -1639,16 +1658,16 @@
           "transactions": 4,
           "total": 158.74,
           "day_label": "Aug 29",
-          "dated_total": 1301.66,
-          "share_of_dated_spending": 0.12195196902416913
+          "dated_total": 1351.66,
+          "share_of_dated_spending": 0.11744077652664131
         },
         {
           "day": "2026-08-30",
           "transactions": 3,
           "total": 86.58,
           "day_label": "Aug 30",
-          "dated_total": 1301.66,
-          "share_of_dated_spending": 0.06651506537805571
+          "dated_total": 1351.66,
+          "share_of_dated_spending": 0.06405456993622656
         }
       ],
       "fuel": [
@@ -1934,8 +1953,8 @@
           "total": 308.56,
           "transactions": 12,
           "rank": 2,
-          "share": 0.21252298727865057,
-          "included_total": 1451.89,
+          "share": 0.2054478024355978,
+          "included_total": 1501.89,
           "label": "Restaurants & prepared meals",
           "food_share": 0.5737875632252306
         },
@@ -1947,8 +1966,8 @@
           "total": 163.62,
           "transactions": 5,
           "rank": 3,
-          "share": 0.11269448787442575,
-          "included_total": 1451.89,
+          "share": 0.10894273215748157,
+          "included_total": 1501.89,
           "label": "Groceries",
           "food_share": 0.3042621243677477
         },
@@ -1960,8 +1979,8 @@
           "total": 65.58,
           "transactions": 9,
           "rank": 4,
-          "share": 0.04516871112825351,
-          "included_total": 1451.89,
+          "share": 0.04366498212252561,
+          "included_total": 1501.89,
           "label": "Convenience snacks & drinks",
           "food_share": 0.12195031240702171
         }
@@ -1969,7 +1988,7 @@
       "food_summary": [
         {
           "total": 537.76,
-          "share": 0.3703861862813298
+          "share": 0.358055516715605
         }
       ]
     }
